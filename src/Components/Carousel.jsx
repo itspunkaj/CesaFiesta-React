@@ -1,8 +1,43 @@
+/* eslint-disable react/prop-types */
+// src/components/Carousel.js
+// import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+// import items from '../Images/Carouselmages/ImageData';
+import image1 from '../Images/Carouselmages/Ropar1.jpeg'
+import image2 from '../Images/Carouselmages/Ropar2.jpeg'
+import image3 from '../Images/Carouselmages/Ropar3.jpeg'
+import image4 from '../Images/Carouselmages/Ropar4.jpeg'
 
-function Carousel() {
+const CarouselItem = (props) => {
   return (
-    <div>Carousel</div>
+    <div>
+        <center><img className='h-96 'src={props.imgSrc} /></center>
+    </div>
   )
 }
 
-export default Carousel
+
+const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
+  return (
+    <Slider className='h-96 w-[100%] bg-blue-600' {...settings}>
+      <CarouselItem imgSrc={image1}/>
+      <CarouselItem imgSrc={image2}/>
+      <CarouselItem imgSrc={image3}/>
+      <CarouselItem imgSrc={image4}/>
+    </Slider>
+  );
+};
+
+export default Carousel;
