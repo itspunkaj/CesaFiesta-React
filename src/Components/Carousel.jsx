@@ -22,6 +22,7 @@ const CarouselItem = (props) => {
 const Carousel = () => {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -31,7 +32,7 @@ const Carousel = () => {
   };
 
   return (
-    <Slider className='h-96 w-[100%] bg-blue-600' {...settings}>
+    <Slider className='h-96 w-[100%] bg-blue-100' {...settings}>
       <CarouselItem imgSrc={image1}/>
       <CarouselItem imgSrc={image2}/>
       <CarouselItem imgSrc={image3}/>
