@@ -1,7 +1,7 @@
 
 function Navbar() {
   return (
-    <div className="bg-sky-500 sticky top-0 z-[1000]">
+    <div className="navbar bg-sky-600 sticky top-0 z-[1000]">
         <div className="flex justify-between px-20 py-2 text-white font-md">
             <a href="home.html">Home</a>
             <a href="aboutUs.html">About Us</a>

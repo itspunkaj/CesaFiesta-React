@@ -4,8 +4,11 @@ import { Footer } from "./Components/Footer"
 import Header from "./Components/Header"
 import KeyNoteSpeakers from "./Components/KeyNoteSpeakers"
 import Navbar from "./Components/Navbar"
+import LocomotiveScroll from "./Components/LocomotiveScroll"
+
 function App() {
   return (
+    <LocomotiveScroll>
     <div>
       <Header/>
       <Navbar/>
@@ -14,6 +17,7 @@ function App() {
       <CoreTeam/>
       <Footer/>
     </div>
+    </LocomotiveScroll>
   )
 }
 

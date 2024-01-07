@@ -2,7 +2,7 @@ import Iframe from "react-iframe"
 
 export const Footer = () => {
   return (
-    <div className="bg-slate-900 min-h-96">
+    <div className="bg-firstColor min-h-96">
       <div className="flex flex-row ">
         <div className="basis-1/3 py-14 pl-20 text-white">
           <h2 className="text-lg font-bold mb-6">CESA FIESTA Overall Coordinator Details</h2>

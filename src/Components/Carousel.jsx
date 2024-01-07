@@ -32,7 +32,7 @@ const Carousel = () => {
   };
 
   return (
-    <Slider className='h-96 w-[100%] bg-blue-100' {...settings}>
+    <Slider data-scroll-section className='h-96 w-[100%] bg-gradient-to-r from-firstColor to-secondColor' {...settings}>
       <CarouselItem imgSrc={image1}/>
       <CarouselItem imgSrc={image2}/>
       <CarouselItem imgSrc={image3}/>

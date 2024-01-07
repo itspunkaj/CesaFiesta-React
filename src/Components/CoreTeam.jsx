@@ -11,7 +11,7 @@ const Card = () => {
 }
 function CoreTeam() {
   return (
-      <div className="bg-sky-500 mt-[40px] pb-[40px]">
+      <div className="bg-thirdColor mt-[40px] pb-[40px]">
           <h3 className="text-center text-3xl pt-8"><b>Core Team</b></h3>
           <div className="grid grid-cols-5 justify-between pl-60 pb-3 pt-8 pr-60">
               <Card/>
