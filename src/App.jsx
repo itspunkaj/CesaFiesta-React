@@ -5,6 +5,7 @@ import Header from "./Components/Header"
 import KeyNoteSpeakers from "./Components/KeyNoteSpeakers"
 import Navbar from "./Components/Navbar"
 import LocomotiveScroll from "./Components/LocomotiveScroll"
+import Welcome from "./Components/Welcome"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Navbar/>
       <Caraousel/>
+      <Welcome/>
       <KeyNoteSpeakers/>
       <CoreTeam/>
       <Footer/>
