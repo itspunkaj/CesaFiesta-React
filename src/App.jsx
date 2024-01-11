@@ -4,7 +4,7 @@ import Home from "./Pages/Home/Home"
 import Layout from "./Components/Layout"
 import Gallery from "./Pages/Gallery/Gallery"
 import AboutUs from "./Pages/AboutUs/AboutUs"
-import Schedule from "./Pages/Schedule/schedule"
+import Schedule from "./Pages/Schedule/Schedule"
 import Registration from "./Pages/Registration/Registration"
 import ContactUs from "./Pages/ContactUs/ContactUs"
 
