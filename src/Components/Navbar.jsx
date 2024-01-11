@@ -1,6 +1,34 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
+const navItems = [
+  {
+    tab: 'Home',
+    path: '/',
+  },
+  {
+    tab: 'About Us',
+    path: '/about-us',
+  },
+  {
+    tab: 'Schedule',
+    path: '/schedule',
+  },
+  {
+    tab: 'Registration/Sponsorship',
+    path: '/registration',
+  },
+  {
+    tab: 'Gallery',
+    path: '/gallery',
+  },
+  {
+    tab: 'Contact Us',
+    path: '/contact-us'
+  }
+];
+
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,23 +40,23 @@ function Navbar() {
     setIsMenuOpen(false);
   }
 
-  useEffect(()=>{
-    window.addEventListener('resize',closeDropdown);
+  useEffect(() => {
+    window.addEventListener('resize', closeDropdown);
 
     return () => {
-      window.removeEventListener('resize',closeDropdown);
+      window.removeEventListener('resize', closeDropdown);
     };
-  },[]);
+  }, []);
 
   return (
-    <>
-      <div className="bg-sky-600 lg:hidden">
+    <div className="navbar">
+      <div className="flex h-10 items-center px-2 py-1 bg-firstColor md:hidden">
         <button
           onClick={toggleMenu}
-          className="text-white focus:outline-none"
+          className="text-white hover:border-2 hover:text-secondColor hover:border-secondColor hover:rounded-md "
         >
           <svg
-            className="w-6 h-6"
+            className="w-7 h-7"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -43,19 +71,12 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className="navbar bg-sky-600 top-0 z-[1000]">
-        <div className={`lg:flex ${
-            isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'
-          } justify-between px-20 py-2 text-white font-md`}>
-          <Link to="/">Home</Link>
-          <Link to="/about-us">About Us</Link>
-          <Link to="/schedule">Schedule</Link>
-          <Link to="/registration">Registration/Sponsorship</Link>
-          <Link to="/gallery">Gallery</Link>
-          <Link to="/contact-us">Contact Us</Link>
+      <div className="bg-firstColor top-0 z-[1000]">
+        <div className={`md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-20 py-2 text-white font-md`}>
+          {navItems.map((item) => <Link className='hover:underline hover:text-secondColor' key={item.tab} to={item.path}>{item.tab}</Link>)} 
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

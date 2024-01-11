@@ -1,7 +1,8 @@
-const Card = () => {
+/* eslint-disable react/prop-types */
+const Card = (props) => {
     return (
-        <div className="h-auto min-w-32  max-w-52 border-4 border-slate-200 rounded-xl shadow-sm pt-2">
-            <center><img className="h-40" src="https://ctrg2023.trgindia.org/speakers/1.jpg" />
+        <div className="bg-white h-auto min-w-32  max-w-52 border-4 border-slate-300 rounded-xl shadow-sm pt-2">
+            <center><img className={`h-40 ${props.border}`} src={props.imageUrl}/>
             <br />
             <a className="text-blue-900 hover:text-blue-600" href="https://ctrg2023.trgindia.org/keynote_speakers.php">
             <span className="text-md">Prof. Dr. Mitesh Surana, Naveen James</span>
@@ -12,19 +13,19 @@ const Card = () => {
 }
 function KeyNoteSpeakers() {
     return (
-        <div className="my-[40px]">
+        <div className="py-[40px]">
             <h3 className="text-center text-3xl pt-8"><b>Keynote Speakers</b></h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 pb-3 pt-8 ">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/1.jpg"/>
             </div>
             </center>
         </div>

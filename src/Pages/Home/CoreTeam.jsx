@@ -1,23 +1,36 @@
-const Card = () => {
-  return (
-      <div className="pr-3 pl-3">
-          <img className="h-40" src="https://ctrg2023.trgindia.org/speakers/1.jpg" />
-          <br />
-          <a href="https://ctrg2023.trgindia.org/keynote_speakers.php">
-          <span className="text-sm">Prof. Lelitha Devi Vanajakshi</span>
-          </a>
-      </div>
-  )
-}
-function CoreTeam() {
-  return (
-      <div className="bg-thirdColor mt-[40px] pb-[40px]">
-          <h3 className="text-center text-3xl pt-8"><b>Core Team</b></h3>
-          <div className="grid grid-cols-5 justify-between pl-60 pb-3 pt-8 pr-60">
-              <Card/>
-          </div>
-      </div>
-  )
+/* eslint-disable react/prop-types */
+const Card = (props) => {
+    return (
+        <div className="bg-white h-auto min-w-32  max-w-52 border-4 border-firstColor rounded-xl shadow-sm pt-2">
+            <center><img className="h-40" src={props.imageUrl}/>
+            <br />
+            <a className="text-blue-900 hover:text-blue-600" href="https://ctrg2023.trgindia.org/keynote_speakers.php">
+            <span className="text-md">Prof. Dr. Mitesh Surana, Naveen James</span>
+            </a>
+            </center>
+        </div>
+    )
 }
 
-export default CoreTeam
+function KeyNoteSpeakers() {
+    return (
+        <div className="py-[40px] bg-thirdColor">
+            <h3 className="text-center text-3xl pt-8"><b>Core Team</b></h3>
+            <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 pb-3 pt-8 ">
+            <Card imageUrl='https://ctrg2023.trgindia.org/speakers/2.jpg'/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            <Card imageUrl="https://ctrg2023.trgindia.org/speakers/2.jpg"/>
+            </div>
+            </center>
+        </div>
+    )
+}
+
+export default KeyNoteSpeakers

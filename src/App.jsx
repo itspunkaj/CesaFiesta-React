@@ -1,4 +1,3 @@
-import LocomotiveScroll from "./Components/LocomotiveScroll"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Pages/Home/Home"
 import Layout from "./Components/Layout"
@@ -10,7 +9,6 @@ import ContactUs from "./Pages/ContactUs/ContactUs"
 
 function App() {
   return (
-    <LocomotiveScroll>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
@@ -23,7 +21,6 @@ function App() {
         </Route>
       </Routes>
       </BrowserRouter>
-    </LocomotiveScroll>
   )
 }
 
