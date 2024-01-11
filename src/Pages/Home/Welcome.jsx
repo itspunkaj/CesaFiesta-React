@@ -1,9 +1,9 @@
 
 function Welcome() {
   return (
-    <div>
-      <div className="mx-4 my-16 h-auto min-h-[90%] grid grid-cols-12 divide-x divide-solid divide-firstColor">
-        <div className="col-span-12 md:col-span-8 p-16">
+    <div className="flex justify-center">
+      <div className="w-[90%] max-w-[1100px] lg:w-[80%] my-16 h-auto min-h-[90%] grid grid-cols-12 divide-x divide-solid divide-firstColor">
+        <div className="col-span-12 md:col-span-8 pr-2">
           <div className="text-3xl">Introduction</div>
           <div className="my-10 text-lg leading-relaxed">The department of civil engineering at IIT Ropar is all set to host
             the Civil Engineering Student Association Fiesta (CESAFIESTA)
@@ -19,7 +19,7 @@ function Welcome() {
             and groundbreaking inventions.
           </div>
         </div>
-        <div className="col-span-12 md:col-span-4 px-4  py-16">
+        <div className="col-span-12 md:col-span-4 pl-4">
           <div className="text-3xl">Notifications</div>
           <div className="my-10 text-xl leading-relaxed">
 

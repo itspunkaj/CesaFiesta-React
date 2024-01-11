@@ -14,7 +14,7 @@ function KeyNoteSpeakers() {
     return (
         <div className="my-[40px]">
             <h3 className="text-center text-3xl pt-8"><b>Keynote Speakers</b></h3>
-            <center><div className="w-96 max-w-[1100px] md:w-[80%] sm:w-[90%] grid grid-cols-2 lg:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 pb-3 pt-8 ">
+            <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 pb-3 pt-8 ">
                 <Card/>
                 <Card/>
                 <Card/>
