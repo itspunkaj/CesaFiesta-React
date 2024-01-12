@@ -4,10 +4,9 @@ function AboutUs() {
   return (
     <div className="flex flex-col justify-center items-center bg-[url('https://files.yappe.in/place/full/administration-block-iit-ropar-8176406.webp')] bg-cover">
         <div className="w-[90%] max-w-[1100px] lg:w-[80%] my-16 h-auto min-h-[90%]  flex flex-col
-             bg-gray-100/80 backdrop-brightness-75 px-20 py-10">
-
-            <h1 className="text-4xl pb-10">About Us</h1>
-            <p className="pb-10">The Indian Institute of Technology Ropar (IIT Ropar) is one of the eight new IITs
+             bg-gray-100/80 backdrop-brightness-75 px-4 md:p-8">
+            <h1 className="text-4xl py-5">About Us</h1>
+            <p className="pb-5">The Indian Institute of Technology Ropar (IIT Ropar) is one of the eight new IITs
                 established by the Ministry of Human Resource Development (MHRD), Government of India,
                 in 2009. Following the true tradition of the IIT system, the institute provides
                 state-of-the-art technical education across various fields and facilitates the
@@ -28,7 +27,7 @@ function AboutUs() {
                 a strong track record of placements, IIT Ropar emphasizes its dedication
                 to offering students a bright future and a wide array of career opportunities.
             </p>
-            <a  className='text-firstColor hover:text-thirdColor hover:underline' href='https://www.iitrpr.ac.in/'>Link to the Website</a>
+            <a  className='text-firstColor hover:text-thirdColor hover:underline py-5' href='https://www.iitrpr.ac.in/'>Link to the Website</a>
         </div>
 
     </div>
