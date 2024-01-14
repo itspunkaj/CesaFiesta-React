@@ -15,7 +15,7 @@ const Card = (props) => {
 function KeyNoteSpeakers() {
     return (
         <div className="py-[40px] bg-thirdColor">
-            <h3 className="text-center text-3xl pt-8"><b>Core Team</b></h3>
+            <h3 className="text-center text-3xl pt-8 font-semibold">Faculty Organising Committee</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 pb-3 pt-8 ">
             <Card imageUrl="https://e7.pngegg.com/pngimages/304/275/png-clipart-user-profile-computer-icons-profile-miscellaneous-logo-thumbnail.png"/>
             <Card imageUrl="https://e7.pngegg.com/pngimages/304/275/png-clipart-user-profile-computer-icons-profile-miscellaneous-logo-thumbnail.png"/>

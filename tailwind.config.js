@@ -10,7 +10,8 @@ export default {
       colors : {
         firstColor : '#32127A',
         secondColor : '#fffaa0',
-        thirdColor : '#6735d6'
+        thirdColor : '#6735d6',
+        fourthColor : '#F1EAFF'
       }
     },
   },
