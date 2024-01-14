@@ -1,10 +1,10 @@
 function ImportantDates() {
     return (
-      <div className="pb-40 bg-fourthColor">
-        <div className="flex justify-center pt-10" >
-          <h1 className="text-4xl font-bold">Important Dates</h1>
+      <div className="pb-32 bg-fourthColor">
+        <div className="flex justify-center py-10" >
+          <div className="text-4xl font-bold">Important Dates</div>
         </div>
-        <div className="flex justify-center text-center pt-10">
+        <div className="flex justify-center text-center">
           <table className="table-fixed border-collapse border-spacing-2 border-2 w-[800px] border-slate-600">
             <thead>
               <tr>

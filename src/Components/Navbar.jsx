@@ -46,16 +46,16 @@ const tabs = [
   label : 'Important Dates',
   to : '/important-dates'
  },
-//  {
-//   id : 'registration',
-//   label : 'Registration',
-//   to : '/registration',
-//  },
-//  {
-//   id : 'contact-us',
-//   label : 'Contact Us',
-//   to : '/contact-us'
-//  }
+ {
+  id : 'registration',
+  label : 'Registration',
+  to : '/registration',
+ },
+ {
+  id : 'contact-us',
+  label : 'Contact Us',
+  to : '/contact-us'
+ }
 ];
 
 function Navbar() {
@@ -91,7 +91,7 @@ function Navbar() {
       <div className="flex h-10 items-center px-2 py-1 bg-firstColor md:hidden">
         <button
           onClick={toggleMenu}
-          className="text-white hover:border-2 hover:text-secondColor hover:border-secondColor hover:rounded-md "
+          className="text-fourthColor hover:border-2 hover:text-secondColor hover:border-secondColor hover:rounded-md "
         >
           <svg
             className="w-7 h-7"
@@ -109,7 +109,7 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className={`bg-firstColor top-0 z-[1000] md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-4 md:px-20 text-white font-md`}>
+      <div className={`bg-firstColor top-0 z-[1000] md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-4 md:px-20 text-fourthColor font-md`}>
         {tabs.map((tab) => (
           <div
             key={tab.id}

@@ -8,7 +8,7 @@ function Home() {
     <>
       <Carousel/>
       <Welcome/>
-      <KeyNoteSpeakers/>
+      {/* <KeyNoteSpeakers/> */}
       <CoreTeam/>
     </>
   )
