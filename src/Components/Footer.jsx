@@ -17,7 +17,7 @@ function Footer() {
           <h2 className="text-lg font-bold mb-4">Useful Links</h2>
           <div className="text-sm space-y-1">
             <div><a className='hover:underline hover:text-secondColor' href='https://www.iitrpr.ac.in/'>IIT Ropar</a></div>
-            <div><a className='hover:underline hover:text-secondColor' href='https://www.iitrpr.ac.in/civil/'>Department Of Civil Engineerin</a></div>
+            <div><a className='hover:underline hover:text-secondColor' href='https://www.iitrpr.ac.in/civil/'>Department Of Civil Engineering</a></div>
             <div><a className='hover:underline hover:text-secondColor' href='https://rupnagar.nic.in/'>Rupnagar</a></div>
           </div>
         </div>
