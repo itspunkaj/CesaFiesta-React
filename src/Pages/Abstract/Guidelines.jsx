@@ -25,7 +25,7 @@ function Guidelines() {
           <li className="mt-4">The detailed guidelines for the abstract can be
            downloaded from the template file attached below. </li>
            <br></br>
-           <a className='text-firstColor hover:text-thirdColor hover:underline py-5' href='https://drive.google.com/file/d/1sSHDD6LFmFH5PfxLniYsuVoVNP97on6l/view?usp=drive_link' target="_blank" rel="noopener noreferrer">Template</a>
+           <a className='text-firstColor hover:text-thirdColor hover:underline py-5' href='https://docs.google.com/document/d/17MDViUaOx5lyYbl03wx7IfYrAIIFybhL/edit?usp=sharing&ouid=101417988739193132902&rtpof=true&sd=true' target="_blank" rel="noopener noreferrer">Template</a>
          </ol> 
         </div> 
       </div>
