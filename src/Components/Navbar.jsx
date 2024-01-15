@@ -46,11 +46,11 @@ const tabs = [
   label : 'Important Dates',
   to : '/important-dates'
  },
-//  {
-//   id : 'registration',
-//   label : 'Registration',
-//   to : '/registration',
-//  },
+ {
+  id : 'registration',
+  label : 'Registration',
+  to : '/registration',
+ },
  {
   id : 'contact-us',
   label : 'Contact Us',
