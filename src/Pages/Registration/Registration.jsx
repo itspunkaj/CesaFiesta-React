@@ -1,7 +1,7 @@
 
 function Registration() {
   return (
-    <div className="bg-fourthColor">
+    <div className="bg-fourthColor pb-20">
       <div className="flex justify-center py-10" >
         <div className=" text-3xl md:text-4xl font-bold">Registration Fees</div>
       </div>
@@ -37,11 +37,11 @@ function Registration() {
             <li>Materials</li>
             <li>High Tea</li>
             <li>GST</li>
-            
           </ul>
         </div>  
         </div>
       </div>
+      <div className="flex justify-center md:text-xl font-bold px-10">📌 Selected abstracts will be considered for book chapters published by Springer Nature</div>
     </div>
   )
 }
