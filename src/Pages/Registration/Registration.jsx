@@ -16,7 +16,7 @@ function Registration() {
           </thead>
           <tbody>
             <tr>
-              <td className="text-xl border-2 border-slate-600 py-2">Faculty/Scientist Fee</td>
+              <td className="text-xl border-2 border-slate-600 py-2">Faculty and Scientist Fee</td>
               <td className="text-xl border-2 border-slate-600 py-2">Rs. 4000</td>
               <td className="text-xl border-2 border-slate-600 py-2">Rs. 5000</td>
             </tr>
