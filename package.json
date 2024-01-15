@@ -23,6 +23,7 @@
     "react-iframe": "^1.8.5",
     "react-locomotive-scroll": "^0.2.2",
     "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"

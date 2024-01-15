@@ -73,7 +73,13 @@ function Navbar() {
       </div>
       <div className="bg-firstColor top-0 z-[1000]">
         <div className={`md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-20 py-2 text-white font-md`}>
-          {navItems.map((item) => <Link className='hover:underline hover:text-secondColor' key={item.tab} to={item.path}>{item.tab}</Link>)} 
+          {navItems.map((item) => {
+            return (
+              <>
+              <Link className='hover:underline hover:text-secondColor' key={item.tab} to={item.path}>{item.tab}</Link>
+              </>
+            )
+          })} 
         </div>
       </div>
     </div>
