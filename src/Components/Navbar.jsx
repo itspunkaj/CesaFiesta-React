@@ -125,7 +125,6 @@ function Navbar() {
               <Link
                 className={`hover:underline hover:text-secondColor flex items-center justify-center ${hoveredTab === tab.id ? 'underline text-secondColor':''}`}
                 to={tab.to}
-                onClick={closeMenu}
               >
                 {tab.label}
               </Link>
