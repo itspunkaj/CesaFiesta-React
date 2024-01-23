@@ -1,6 +1,6 @@
 import Carousel from "./Carousel"
 import CoreTeam from "./CoreTeam"
-import KeyNoteSpeakers from "./KeyNoteSpeakers"
+// import KeyNoteSpeakers from "./KeyNoteSpeakers"
 import Welcome from "./Welcome"
 
 function Home() {

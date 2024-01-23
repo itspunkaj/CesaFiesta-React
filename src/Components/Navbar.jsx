@@ -59,14 +59,14 @@ const tabs = [
 ];
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);      // for smaller screens hamburger navbar menu
   const [hoveredTab, setHoveredTab] = useState(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const closeDropdown = () => {
+  const closeMenu = () => {
     setIsMenuOpen(false);
   };
 
@@ -79,10 +79,10 @@ function Navbar() {
   };
 
   useEffect(() => {
-    window.addEventListener("resize", closeDropdown);
+    window.addEventListener("resize", closeMenu);
 
     return () => {
-      window.removeEventListener("resize", closeDropdown);
+      window.removeEventListener("resize", closeMenu);
     };
   }, []);
 
@@ -125,6 +125,7 @@ function Navbar() {
               <Link
                 className={`hover:underline hover:text-secondColor flex items-center justify-center ${hoveredTab === tab.id ? 'underline text-secondColor':''}`}
                 to={tab.to}
+                onClick={closeMenu}
               >
                 {tab.label}
               </Link>
@@ -139,6 +140,7 @@ function Navbar() {
                         href={subItem.to}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={closeMenu}
                       >
                         {subItem.label}
                       </a>
@@ -146,7 +148,7 @@ function Navbar() {
                       <Link
                         to={subItem.to}
                         className="block py-2 px-4 hover:bg-thirdColor"
-                        onClick = {closeDropdown}
+                        onClick = {closeMenu}
                       >
                         {subItem.label}
                       </Link>
