@@ -1,5 +1,5 @@
-import cesaFiestaLogo from "../../public/CESA_LOGO.png"
-import IITRoparLogo from "../../public/IITRopar.png"
+import cesaFiestaLogo from "/CESA_LOGO.png"
+import IITRoparLogo from "/IITRopar.png"
 
 function Header() {
   return (
