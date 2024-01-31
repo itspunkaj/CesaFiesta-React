@@ -5,9 +5,7 @@ function Guidelines() {
         </div>
         <div className="pt-10 pl-5 pb-10">
          <ol className="list-decimal">
-          <li>The extended abstract must portray original work highlighting a brief summary including the purpose, 
-            objectives, methodology, results and conclusion associated with their research.</li>
-          <li className="mt-4">The abstract must be “grammar checked” and “spell checked”. </li>
+          <li className="">The abstract must be “grammar checked” and “spell checked”. </li>
           <li className="mt-4">The language of instruction is English. </li>
           <li className="mt-4">The abstract should not contain any citations or references in the text.</li>
           <li className="mt-4">A plagiarism check/ Similarity Index of less than 20% are preferred.</li>
