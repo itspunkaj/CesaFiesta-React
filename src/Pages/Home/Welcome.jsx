@@ -23,7 +23,7 @@ function Welcome() {
           <div className="text-3xl font-semibold">Notifications</div>
           <div className="my-10 text-lg leading-relaxed">
             <ul className="list-disc pl-5">
-            <li className="font-medium">🆕Abstraction Submission date has been extended to 8th Feb 2024.</li>
+            <li className="font-medium">🆕Abstract Submission date has been extended to 8th Feb 2024.</li>
             <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/14yjOkd-korM4az6QzWiU9iJTavwhAvRT/view?usp=sharing' target='blank_'>Detailed Brochure</a></li>
               <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/113gES1EJMbyKRWXVystK-q9_XwNoPHl9/view?usp=sharing' target='blank_'>Announcement Invitation</a></li>
               <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1-JUP16EyJXwGb1rw_-URtaGwdcSpJMrm/view?usp=sharing' target='blank_'>Sponsorship Brochure</a></li>
