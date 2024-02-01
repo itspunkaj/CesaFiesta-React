@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 function CivilDep() {
     return (
       <div className="flex flex-col justify-center items-center bg-[url('https://files.yappe.in/place/full/administration-block-iit-ropar-8176406.webp')] bg-cover">
