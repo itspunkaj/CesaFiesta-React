@@ -3,11 +3,11 @@ import DrGanesh from './Dr_Ganesh.jpg'
 import DrShray from './Dr_Shray.jpg'
 const Card = (props) => {
     return (
-        <div className="bg-white h-auto w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3">
+        <div className="flex flex-col justify-around bg-white h-auto w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3">
             <center><img className="h-40" src={props.imageUrl}/>
             <br />
-            <a className="text-blue-900 hover:text-blue-600" href={props.link} target="_blank">
-            <span className="text-md">{props.name}</span>
+            <a className="flex flex-col justify-around text-md text-blue-900 hover:text-blue-600" href={props.link} target="_blank" rel='noreferrer'>
+            <span className="font-bold">{props.name}</span>
             </a>
             </center>
         </div>
