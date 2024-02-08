@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import DrGanesh from './Dr_Ganesh.jpg'
 import DrShray from './Dr_Shray.jpg'
 import Bipul from './Bipul_Sharma.jpg'
@@ -10,10 +11,10 @@ import Aarathi from './Aarathi.jpg'
 import Pankaj from './Pankaj.jpg'
 const Card = (props) => {
   return (
-    <div className="bg-white h-auto min-w-[240px] w-auto border-4 border-firstColor rounded-xl shadow-sm py-3">
+    <div className="bg-white h-auto w-[240px] border-4 border-firstColor rounded-xl shadow-sm py-3">
       <center><img className="h-40" src={props.imageUrl} />
         <br />
-        <a className="text-black hover:text-firstColor" href={props.link} target="_blank">
+        <a className="text-black hover:text-firstColor" href={props.link} target="_blank" rel='noreferrer'>
           <div className="text-lg font-semibold pb-2">{props.name}</div>
           <div className="text-md">{props.designation}</div>
           <div className="text-md">Civil Engineering, IIT Ropar</div>

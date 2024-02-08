@@ -15,6 +15,10 @@ const tabs = [
     { id : 'department-of-civil', label : 'Department Of Civil Engineering', to : '/about/department-of-civil'},
     { id : 'ropar', label : 'Ropar', to : '/about/Ropar'}
   ]
+ },{
+  id : 'keynote-speakers',
+  label : 'Keynote Speakers',
+  to : '/keynote-speakers'
  },
  {
   id : 'abstract',

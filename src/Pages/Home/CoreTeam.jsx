@@ -3,7 +3,7 @@ import DrGanesh from './Dr_Ganesh.jpg'
 import DrShray from './Dr_Shray.jpg'
 const Card = (props) => {
     return (
-        <div className="flex flex-col justify-around bg-white h-auto w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3">
+        <div className="flex flex-col justify-around bg-white h-auto w-[175px] md:w-[200px] sm:w-[180px] border-4 border-firstColor rounded-xl shadow-sm py-3">
             <center><img className="h-40" src={props.imageUrl}/>
             <br />
             <a className="flex flex-col justify-around text-md text-blue-900 hover:text-blue-600" href={props.link} target="_blank" rel='noreferrer'>
@@ -14,7 +14,7 @@ const Card = (props) => {
     )
 }
 
-function KeyNoteSpeakers() {
+function CoreTeam() {
     return (
         <div className="bg-thirdColor">
             <h3 className="text-center text-fourthColor text-3xl pt-8 font-semibold">Faculty Organising Committee</h3>
@@ -29,4 +29,4 @@ function KeyNoteSpeakers() {
     )
 }
 
-export default KeyNoteSpeakers
+export default CoreTeam

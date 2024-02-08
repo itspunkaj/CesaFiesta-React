@@ -16,6 +16,7 @@ import WaterResource from "./Pages/Themes/WaterResource"
 import Environment from "./Pages/Themes/Environment"
 import Geomatics from "./Pages/Themes/Geomatics"
 import ImportantDates from "./Pages/ImportantDates/ImportantDates"
+import KeyNoteSpeakers from "./Pages/Home/KeyNoteSpeakers"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='about/iit-ropar' element={<IITRopar/>}/>
           <Route path='about/department-of-civil' element={<CivilDep/>}/>
           <Route path='about/ropar' element={<Ropar/>}/>
+          <Route path='keynote-speakers' element={<KeyNoteSpeakers/>}/>
           <Route path='abstract/guidelines' element={<Guidelines/>}/>
           <Route path='themes/structure' element={<Structure/>}/>
           <Route path='themes/geotech' element={<Geotech/>}/>
