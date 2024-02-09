@@ -19,11 +19,11 @@ function ImportantDates() {
               </tr>
               <tr>
                 <td className="md:text-xl border-2 border-slate-600 py-2 px-3">Notification of Acceptance</td>
-                <td className="md:text-xl border-2 border-slate-600 py-2 px-3">9th Feb, 2024</td>
+                <td className="md:text-xl border-2 border-slate-600 py-2 px-3">12th Feb, 2024</td>
               </tr>
               <tr>
                 <td className="md:text-xl border-2 border-slate-600 py-2 px-3">Opening of Online Registration</td>
-                <td className="md:text-xl border-2 border-slate-600 py-2 px-3">10th Feb, 2024</td>
+                <td className="md:text-xl border-2 border-slate-600 py-2 px-3">12th Feb, 2024</td>
               </tr>
             </tbody>
           </table>
