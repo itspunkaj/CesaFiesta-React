@@ -2,11 +2,15 @@ import Qr from './QRCodeRevnueAccount.jpg'
 function Registration() {
   return (
     <div className="bg-fourthColor pb-20">
-      <div className="flex justify-center py-5" >
+      <div className='bg-secondColor'>
+       <div className="flex justify-center md:text-xl py-2 text-black"> The registrations have started.&nbsp; <a className=" text-thirdColor underline " 
+       target="_blank" href="">Click Here  </a>&nbsp; to register</div>
+      </div>
+      <div className="flex justify-center py-3" >
         <div className=" text-3xl md:text-4xl justify-center font-bold">Registration Fees</div>
       </div>
-      <div className="flex flex-row justify-center text-center ">
-        <div className='flex  justify-center'>
+
+      <div className='flex text-center justify-center'>
         <table className="table-fixed border-collapse border-spacing-2 border-2 w-auto border-slate-600">
           <thead>
             <tr>
@@ -31,10 +35,30 @@ function Registration() {
         {/* <div>
           <img src={Qr} className='w-[250px] h-a'></img>
           </div> */}
-        </div>
         {/* <div className='flex pl-40 justify-center'>
           <img src={Qr} className='h-3/6 w-3/12'></img>
         </div> */}
+      </div>
+      <div className="flex text-3xl md:text-4xl justify-center font-bold py-3">Account Details</div>
+      <div className='flex text-center justify-center'>
+        <table className="table-fixed border-collapse border-spacing-2 border-2 w-auto border-slate-600">
+          <tr>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Name</td>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">IIT ROPAR Revenue Account</td>
+          </tr>
+          <tr>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Account Number</td>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">37360100716</td>
+          </tr>
+          <tr>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">IFSC CODE</td>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">SBIN0013181</td>
+          </tr>
+          <tr>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">UPI ID</td>
+            <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">THEREGISTRAR716@SBI</td>
+          </tr>
+        </table>
       </div>
       <div className="flex justify-center p-5 leading-loose">
         <div className="flex flex-col">
