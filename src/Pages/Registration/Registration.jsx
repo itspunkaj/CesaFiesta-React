@@ -112,7 +112,7 @@ function Registration() {
       <div className="flex justify-center md:text-xl font-bold px-10">📌 For the participants seeking accommodation, the details would be updated soon.</div>
       <div className="flex justify-center md:text-xl font-bold px-10 py-3">📌 Selected abstracts will be considered for book chapters published by Springer Nature</div>
       <div className="flex flex-col  px-10">
-        <div className="md:text-4xl font-bold">Note:-</div><br></br>
+        <div className="md:text-4xl font-bold">Guidelines:-</div><br></br>
         <div>
           <ul className="md:text-xl list-disc list-inside">
             <li>Registration is secured after payment of the registration fee</li>
