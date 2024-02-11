@@ -23,7 +23,8 @@ function Welcome() {
           <div className="text-3xl font-semibold">Notifications</div>
           <div className="my-10 text-lg leading-relaxed">
             <ul className="list-disc pl-5">
-            <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/14yjOkd-korM4az6QzWiU9iJTavwhAvRT/view?usp=sharing' target='blank_'>Detailed Brochure</a></li>
+              <li className="font-medium">🆕The registrations have started</li>
+              <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/14yjOkd-korM4az6QzWiU9iJTavwhAvRT/view?usp=sharing' target='blank_'>Detailed Brochure</a></li>
               <li><a className="text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1-JUP16EyJXwGb1rw_-URtaGwdcSpJMrm/view?usp=sharing' target='blank_'>Sponsorship Brochure</a></li>
               <li className="font-medium">Selected abstracts will be considered for book chapters published by Springer Nature</li>
             </ul>
