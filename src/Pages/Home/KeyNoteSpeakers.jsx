@@ -16,14 +16,15 @@ const Card = (props) => {
 }
 function KeyNoteSpeakers() {
     return (
-        <div className="py-[40px]">
-            <h3 className="text-center text-3xl pt-8 font-bold">Keynote Speakers</h3>
+        <div className="py-4">
+            <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
                 <Card imageUrl={DrVVSrinivas} link='http://www.civil.iisc.ac.in/people/srinivas-v-v/' name='Prof. Srinivas V V' college='IISC Bangalore' />
                 <Card imageUrl="https://civil.iitr.ac.in/IMG/4-RDGarg..jpg" link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Rahul Dev Garg' college='IIT Roorkee' />
                 <Card imageUrl="https://civil.iitr.ac.in/IMG/6-UmeshKumar.jpg" link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Umesh Kumar Sharma' college='IIT Roorkee' />
                 <Card imageUrl="https://www.iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2022-11/Photo.jpeg?itok=Ek7eYyMF" link="https://www.iitbhu.ac.in/dept/civ/people/manashchakraciv" name='Dr. Manash Chakraborty' college='IIT BHU' />
                 <Card imageUrl="https://web.iitd.ac.in/~manojm/pics/manoj.jpg" link='https://web.iitd.ac.in/~manojm/' name='Dr. Manoj M.' college='IIT Delhi' />
+                <Card imageUrl="https://home.iitk.ac.in/~mukesh/images/mukesh.JPG" link='https://home.iitk.ac.in/~mukesh/' name='Dr. Mukesh Sharma' college='IIT Kanpur' />
                 <Card name='To be Updated Soon...'/>
             </div>
             </center>
