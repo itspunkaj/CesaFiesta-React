@@ -24,7 +24,7 @@ function KeyNoteSpeakers() {
                 <Card imageUrl="https://civil.iitr.ac.in/IMG/6-UmeshKumar.jpg" link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Umesh Kumar Sharma' college='IIT Roorkee' />
                 <Card imageUrl="https://www.iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2022-11/Photo.jpeg?itok=Ek7eYyMF" link="https://www.iitbhu.ac.in/dept/civ/people/manashchakraciv" name='Dr. Manash Chakraborty' college='IIT BHU' />
                 <Card imageUrl="https://web.iitd.ac.in/~manojm/pics/manoj.jpg" link='https://web.iitd.ac.in/~manojm/' name='Dr. Manoj M.' college='IIT Delhi' />
-                <Card imageUrl="https://home.iitk.ac.in/~mukesh/images/mukesh.JPG" link='https://home.iitk.ac.in/~mukesh/' name='Dr. Mukesh Sharma' college='IIT Kanpur' />
+                <Card imageUrl="https://home.iitk.ac.in/~mukesh/images/mukesh.JPG" link='https://home.iitk.ac.in/~mukesh/' name='Prof. Mukesh Sharma' college='IIT Kanpur' />
                 <Card name='To be Updated Soon...'/>
             </div>
             </center>
