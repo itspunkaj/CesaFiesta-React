@@ -16,8 +16,8 @@ const Card = (props) => {
 
 function CoreTeam() {
     return (
-        <div className="bg-thirdColor">
-            <h3 className="text-center text-fourthColor text-3xl pt-8 font-semibold">Faculty Organising Committee</h3>
+        <div className="bg-fourthColor">
+            <h3 className="text-center text-4xl pt-8 md:pt-12 font-semibold">Faculty Organising Committee</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-4 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
             <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Sagar-min.jpg" name="Dr. Sagar Rohidas Chavan" link="https://www.iitrpr.ac.in/cse/sagarrohidas"/>
             <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Mitesh-min.jpg" name="Dr. Mitesh Surana " link="https://sites.google.com/view/mitesh-surana"/>
