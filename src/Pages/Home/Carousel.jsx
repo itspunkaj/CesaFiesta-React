@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import image1 from './Carouselmages/1.jpg';
-import image2 from './Carouselmages/2.jpg';
-import image3 from './Carouselmages/3.jpg';
-import image4 from './Carouselmages/4.jpg';
-import image5 from './Carouselmages/5.jpg';
-import image6 from './Carouselmages/6.jpg';
+import image1 from './Carouselmages/1.webp';
+import image2 from './Carouselmages/2.webp';
+import image3 from './Carouselmages/3.webp';
+import image4 from './Carouselmages/4.webp';
+import image5 from './Carouselmages/5.webp';
+import image6 from './Carouselmages/6.webp';
 import image7 from './Carouselmages/7.webp';
 import image9 from './Carouselmages/9.webp';
 import LazyLoad from 'react-lazyload';
@@ -24,7 +24,7 @@ const Carousel =() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 1000); 
+    }, 1500); 
        // The duration should match the CSS transition time
   };
 
@@ -51,9 +51,7 @@ const Carousel =() => {
   return (
     <div className="relative h-[800px] overflow-hidden">
       {/* Image Display with Fade Effect */}
-      <div className={`relative transition-opacity duration-1000 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-        {/* Dark overlay on top of the image */}
-        <div className="absolute top-0 left-0 h-full bg-black bg-opacity-40 z-10"></div>
+      <div className={`relative transition-opacity duration-1500 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         <LazyLoad height={800} offset={100} once>
           <img
             src={images[currentIndex]}
