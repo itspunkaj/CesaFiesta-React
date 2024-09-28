@@ -7,7 +7,7 @@ import image5 from './Carouselmages/5.jpg';
 import image6 from './Carouselmages/6.jpg';
 import image7 from './Carouselmages/7.webp';
 import image9 from './Carouselmages/9.webp';
-
+import LazyLoad from 'react-lazyload';
 const Carousel =() => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
@@ -54,11 +54,13 @@ const Carousel =() => {
       <div className={`relative transition-opacity duration-1000 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         {/* Dark overlay on top of the image */}
         <div className="absolute top-0 left-0 h-full bg-black bg-opacity-40 z-10"></div>
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex}`}
-          className="w-screen h-[800px] object-cover"
-        />
+        <LazyLoad height={800} offset={100} once>
+          <img
+            src={images[currentIndex]}
+            alt={`Slide ${currentIndex}`}
+            className="w-screen h-[800px] object-cover"
+          />
+        </LazyLoad>
       </div>
       {/* Progress Bar */}
       <div className="absolute bottom-6 left-0 right-0 flex justify-center z-20">
