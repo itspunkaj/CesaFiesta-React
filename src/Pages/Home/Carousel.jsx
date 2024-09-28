@@ -24,7 +24,7 @@ const Carousel =() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 2000); 
+    }, 2500); 
        // The duration should match the CSS transition time
   };
 
