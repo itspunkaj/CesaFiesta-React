@@ -2,33 +2,38 @@ import Qr from './QRCodeRevnueAccount.jpg'
 function Registration() {
   return (
     <div className="bg-fourthColor pb-20">
-      <div className='bg-secondColor'>
+      {/* <div className='bg-secondColor'>
         <div className="flex justify-center md:text-xl py-2 text-black"> The registrations have started.&nbsp; <a className=" text-thirdColor underline "
           target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfxGyJKUjSDJcTS-teLv7oU5UpjQrhTCeisp7C766AqCn_Kw/viewform">Click Here  </a>&nbsp; to register</div>
-      </div>
+      </div> */}
       <div className="flex justify-center py-3" >
         <div className=" text-3xl md:text-4xl justify-center font-bold">Registration Fees</div>
       </div>
 
       <div className='flex text-center justify-center'>
-        <table className="table-fixed border-collapse border-spacing-2 border-2 w-auto border-slate-600">
+        <table className="table-fixed border-collapse border-spacing-2 border-2 w-auto border-slate-300">
           <thead>
-            <tr>
-              <th className="md:text-2xl border-2 border-slate-900"></th>
-              <th className="md:text-2xl border-2 border-slate-900 p-2 px-3">Early Bird (until 20 Feb,2024)</th>
-              <th className="md:text-2xl border-2 border-slate-900 p-2 px-3">Regular</th>
+            <tr className='bg-firstColor text-white'>
+              <th className="md:text-xl "></th>
+              <th className="md:text-xl font-semibold  p-3 px-3">Early Bird Fees</th>
+              <th className="md:text-xl font-semibold  p-3 px-3">Regular Fees</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Faculty and Scientist Fee</td>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Rs. 4000</td>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Rs. 5000</td>
+            <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">Indian Students</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">INR 3000</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">INR 3500</td>
             </tr>
-            <tr>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Student Fee</td>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Rs. 2800</td>
-              <td className="text-md md:text-xl border-2 border-slate-600 py-2 px-3">Rs. 3500</td>
+            <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">International Students</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 50</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 80</td>
+            </tr>
+            <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">Research Scientists/Faculty</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">INR 5000</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">INR 7500</td>
             </tr>
           </tbody>
         </table>
@@ -88,7 +93,7 @@ function Registration() {
             <div className="text-3xl font-semibold">Notifications</div>
             <div className="my-10 text-lg leading-relaxed">
               <ul className="list-disc pl-5">
-              <li><a className="text-firstColor font-medium hover:text-thirdColor py-2" href='https://docs.google.com/forms/d/e/1FAIpQLScfxGyJKUjSDJcTS-teLv7oU5UpjQrhTCeisp7C766AqCn_Kw/viewform' target='blank_'>Click here </a> to register</li>
+              {/* <li><a className="text-firstColor font-medium hover:text-thirdColor py-2" href='https://docs.google.com/forms/d/e/1FAIpQLScfxGyJKUjSDJcTS-teLv7oU5UpjQrhTCeisp7C766AqCn_Kw/viewform' target='blank_'>Click here </a> to register</li> */}
                 <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mPXSCvjDbYVOnD0bi9o0bgFD0vZW4xr3/edit?usp=drivesdk&ouid=101417988739193132902&rtpof=true&sd=true' target='blank_'>Presentation Tempelate</a></li>
                 <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mQgTIQtOpmEj2hbELKVoTWTv33eUm8jW/edit?usp=drivesdk&ouid=101417988739193132902&rtpof=true&sd=true' target='blank_'>Poster Tempelate</a></li>
               </ul>

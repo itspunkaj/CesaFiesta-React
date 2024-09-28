@@ -8,10 +8,15 @@ export default {
   theme: {
     extend: {
       colors : {
-        firstColor : '#32127A',
-        secondColor : '#fffaa0',
-        thirdColor : '#6735d6',
-        fourthColor : '#F1EAFF'
+        firstColor : '#8d7d72',
+        secondColor : '#c7ebf2',
+        thirdColor : '#cec1a8',
+        fourthColor : '#F1EAFF',
+        fifthColor: '#438af6',
+        sixthColor:'#f3efe8'
+      },
+      fontFamily:{
+        sans:['Poppins', 'sans-serif'],
       }
     },
   },

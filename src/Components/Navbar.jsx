@@ -11,7 +11,6 @@ const tabs = [
   id : 'about',
   label : 'About',
   subItems : [
-    { id : 'iit-ropar', label : 'IIT Ropar', to : '/about/iit-ropar'},
     { id : 'department-of-civil', label : 'Department Of Civil Engineering', to : '/about/department-of-civil'},
     { id : 'ropar', label : 'Ropar', to : '/about/Ropar'}
   ]
@@ -41,9 +40,12 @@ const tabs = [
   ]
  },
  {
-  id : 'cesa-fiesta1.0',
-  label : 'CESA FIESTA 1.0',
-  to : '/cesa-fiesta-1.0'
+  id : 'cesa-fiesta',
+  label : 'GLIMPSE',
+  subItems:[
+    {id:'cf1',label:'CESAFIESTA 1.0', to : '/cesa-fiesta-1.0'},
+    {id:'cf2',label:'CESAFIESTA 2.0', to : '/cesa-fiesta-2.0'},
+  ]
  },
  {
   id : 'important-dates',
@@ -113,7 +115,7 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className={`bg-firstColor top-0 z-[1000] md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-4 md:px-20 text-fourthColor font-md`}>
+      <div className={`bg-firstColor py-1 top-0 z-[1000] md:flex ${isMenuOpen ? 'flex flex-col items-center space-y-4 pb-10' : 'hidden'} justify-between px-4 md:px-20 text-fourthColor font-md`}>
         {tabs.map((tab) => (
           <div
             key={tab.id}
@@ -122,19 +124,19 @@ function Navbar() {
             onMouseLeave={handleTabLeave}
           >
             {tab.to && tab.to.startsWith && tab.to.startsWith('http') ? (
-              <a href={tab.to} target="_blank" rel="noopener noreferrer">
+              <a href={tab.to} target="_blank" rel="noopener noreferrer" className="text-[16px] font-medium uppercase">
                 {tab.label}
               </a>
             ) : (
               <Link
-                className={`hover:underline hover:text-secondColor flex items-center justify-center ${hoveredTab === tab.id ? 'underline text-secondColor':''}`}
+                className={`text-[16px] font-medium uppercase hover:text-secondColor flex items-center justify-center ${hoveredTab === tab.id ? ' text-secondColor':''}`}
                 to={tab.to}
               >
                 {tab.label}
               </Link>
             )}
             {tab.subItems && hoveredTab === tab.id && (
-              <div className="md:left-0 md:top-full bg-gray-600  p-2 w-screen md:absolute md:w-64">
+              <div className="md:left-0 md:top-full bg-zinc-900  p-2 w-screen md:absolute md:w-40">
                 {tab.subItems.map((subItem) => (
                   <div key={subItem.id}>
                     {subItem.to && subItem.to.startsWith && subItem.to.startsWith('http') ? (

@@ -8,12 +8,13 @@ import isrs from './isrs.jpg'
 import finite from './finite.jpeg'
 import mass from './mass.jpeg'
 import g from './g.jpeg'
+import { motion } from "framer-motion"
 function Sponsors() {
     return (
         <>
             <div className="bg-thirdColor pb-8">
                 <div className="text-center text-4xl pt-8 md:pt-12 font-semibold text-fourthColor">
-                    Sponsors
+                   Past Sponsors
                 </div>
                 <div className="text-2xl text-center pt-8  text-fourthColor">
                     PLATINUM
