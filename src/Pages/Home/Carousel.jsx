@@ -19,12 +19,12 @@ const Carousel =() => {
   },[currentIndex])
   // Function to go to the next image
   const nextImage = () => {
-    setIsFading(true); // Start the fade-out effect
+    setIsFading(true)// Start the fade-out effect
     setTimeout(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 1500); 
+    }, 2000); 
        // The duration should match the CSS transition time
   };
 
@@ -51,7 +51,7 @@ const Carousel =() => {
   return (
     <div className="relative h-[800px] overflow-hidden">
       {/* Image Display with Fade Effect */}
-      <div className={`relative transition-opacity duration-1500 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+      <div className={`relative transition-opacity duration-1000 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         <LazyLoad height={800} offset={100} once>
           <img
             src={images[currentIndex]}
