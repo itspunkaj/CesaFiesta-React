@@ -12,6 +12,7 @@ import drsagar from "./dr_sagar.png"
 import Tanisha from "./Tanisha.jpg"
 import Amit from "./Amit.jpg"
 import Aditya from "./Aditya.jpeg"
+import Saroj from "./Saroj.jpg"
 const Card = (props) => {
   return (
     <div className="bg-white h-auto w-[240px] border-4 border-firstColor rounded-xl shadow-sm py-3">
@@ -54,9 +55,9 @@ function ContactUs() {
           <Card imageUrl={DrGanesh} name="Dr. Ganesh Ravi" 
             link="https://scholar.google.com/citations?user=GYBJrXoAAAAJ&hl=en&oi=sra" designation="Assistant Professor"
             email="ganesh@iitrpr.ac.in"/>
-          <Card imageUrl={DrGanesh} name="Dr. Indramani Dhada" 
-            link="https://scholar.google.com/citations?user=GYBJrXoAAAAJ&hl=en&oi=sra" designation="Assistant Professor"
-            email="ganesh@iitrpr.ac.in"/>  
+          <Card imageUrl="https://d3s9yd6qcwjotm.cloudfront.net/ProfileImage/6589.jpg" name="Dr. Indramani Dhada" 
+            link="https://www.iitrpr.ac.in/civilfaculty/indramani-dhada" designation="Assistant Professor"
+            email="idhada@iitrpr.ac.in"/>  
         </div>
         </center>
       </div>
@@ -71,7 +72,7 @@ function ContactUs() {
           email="amit.20cez0003@iitrpr.ac.in"/>
           <Card2 imageUrl={Tanisha} name="Tanisha Ghosh" designation="Content" 
           email="tanisha.20cez0009@iitrpr.ac.in"/>
-          <Card2 imageUrl={Tanisha} name="Saroj Rana" designation="Sponsorship"
+          <Card2 imageUrl={Saroj} name="Saroj Rana" designation="Sponsorship"
           email="saroj.20cez0006@iitrpr.ac.in" />
           <Card2 imageUrl={Shreya} name="Shreya Ganguly" designation="Technical"
           email="shreya.19cez0011@iitrpr.ac.in"/>
