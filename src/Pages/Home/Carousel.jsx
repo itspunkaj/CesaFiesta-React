@@ -8,58 +8,67 @@ import image6 from './Carouselmages/6.webp';
 import image7 from './Carouselmages/7.webp';
 import image9 from './Carouselmages/9.webp';
 import LazyLoad from 'react-lazyload';
-const Carousel =() => {
+
+const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFading, setIsFading] = useState(false);
-  const images = [
-    image1, image2, image3, image4, image5, image6, image7, image9
-  ];
-  useEffect(()=>{
-    setIsFading(false)
-  },[currentIndex])
-  // Function to go to the next image
-  const nextImage = () => {
-    setIsFading(true)// Start the fade-out effect
-    setTimeout(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 2500); 
-       // The duration should match the CSS transition time
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const images = [image1, image2, image3, image4, image5, image6, image7, image9];
+
+  // Preload the next image
+  const preloadImage = (src) => {
+    const img = new Image();
+    img.src = src;
   };
 
-  // Function to go to the previous image
-  const prevImage = () => {
-    setIsFading(true); // Start the fade-out effect
+  useEffect(() => {
+    const nextIndex = (currentIndex + 1) % images.length;
+    preloadImage(images[nextIndex]); // Preload the next image
+  }, [currentIndex]);
+
+  const changeImage = (newIndex) => {
+    setIsTransitioning(true); // Start the transition (fade-out current image)
     setTimeout(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? images.length - 1 : prevIndex - 1
-      );
-      setIsFading(false); // Reset the fade to show the new image
-    }, 500); // The duration should match the CSS transition time
+      setCurrentIndex(newIndex); // After fading out, change the image
+      setIsTransitioning(false); // Immediately start fading in the new image
+    }, 1000); // This timing matches the transition CSS duration
+  };
+
+  const nextImage = () => {
+    const newIndex = (currentIndex + 1) % images.length;
+    changeImage(newIndex);
+  };
+
+  const prevImage = () => {
+    const newIndex = (currentIndex - 1 + images.length) % images.length;
+    changeImage(newIndex);
   };
 
   // Auto-slide every 7 seconds
   useEffect(() => {
     const interval = setInterval(nextImage, 7000); // 7 seconds
-
-    return () => {
-      clearInterval(interval); // Clear the interval on component unmount
-    };
+    return () => clearInterval(interval); // Clear interval on component unmount
   }, [currentIndex]);
 
   return (
     <div className="relative h-[800px] overflow-hidden">
-      {/* Image Display with Fade Effect */}
-      <div className={`relative transition-opacity duration-1000 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-        <LazyLoad height={800} offset={100} once>
-          <img
-            src={images[currentIndex]}
-            alt={`Slide ${currentIndex}`}
-            className="w-screen h-[800px] object-cover"
-          />
-        </LazyLoad>
+      {/* Two layers: the current image and the new image */}
+      <div className="relative">
+        {/* Active Image */}
+        <div
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            isTransitioning ? 'opacity-0' : 'opacity-100'
+          }`}
+        >
+          <LazyLoad height={800} offset={100} once>
+            <img
+              src={images[currentIndex]}
+              alt={`Slide ${currentIndex}`}
+              className="w-screen h-[800px] object-cover"
+            />
+          </LazyLoad>
+        </div>
       </div>
+
       {/* Progress Bar */}
       <div className="absolute bottom-6 left-0 right-0 flex justify-center z-20">
         {images.map((_, index) => (
