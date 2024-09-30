@@ -25,7 +25,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index  element={<Home/>}/>
           <Route path='about/iit-ropar' element={<IITRopar/>}/>
-          <Route path='about/department-of-civil' element={<CivilDep/>}/>
+          <Route path='department-of-civil' element={<CivilDep/>}/>
           <Route path='about/ropar' element={<Ropar/>}/>
           <Route path='keynote-speakers' element={<KeyNoteSpeakers/>}/>
           <Route path='abstract/guidelines' element={<Guidelines/>}/>
