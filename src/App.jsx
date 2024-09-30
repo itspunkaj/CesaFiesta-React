@@ -17,10 +17,8 @@ import Environment from "./Pages/Themes/Environment"
 import Geomatics from "./Pages/Themes/Geomatics"
 import ImportantDates from "./Pages/ImportantDates/ImportantDates"
 import KeyNoteSpeakers from "./Pages/Home/KeyNoteSpeakers"
-import LocomotiveScroll from 'locomotive-scroll';
 import Gallery2 from "./Pages/Gallery/Gallery2"
 function App() {
-  const locomotiveScroll = new LocomotiveScroll();
   return (
       <BrowserRouter>
       <Routes>
