@@ -27,8 +27,8 @@ function Registration() {
             </tr>
             <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
               <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">International Students</td>
-              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 50</td>
-              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 80</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 120</td>
+              <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">USD 150</td>
             </tr>
             <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
               <td className="text-md md:text-[18px] border-2 border-slate-300  py-3 px-3">Research Scientists/Faculty</td>
@@ -114,7 +114,6 @@ function Registration() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center md:text-xl font-bold px-10">📌 For the participants seeking accommodation, the details would be updated soon.</div>
       <div className="flex justify-center md:text-xl font-bold px-10 py-3">📌 Selected abstracts will be considered for book chapters published by Springer Nature</div>
       <div className="flex flex-col  px-10">
         <div className="md:text-4xl font-bold">Guidelines:-</div><br></br>

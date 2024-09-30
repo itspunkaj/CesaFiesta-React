@@ -25,6 +25,7 @@ function Structure() {
                     {point('Earthquake Engineering/Structural Dynamics')}
                     {point('Corrosion In RCC Structures')}
                     {point('Green Construction/New Materials For Construction')}
+                    {point('Blast And Impact')}
                 </ul>
             </div>
         </div>

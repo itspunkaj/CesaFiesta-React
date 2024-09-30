@@ -1,4 +1,4 @@
-import cesaFiestaLogo from "/CESA_LOGO.jpg";
+import cesaFiestaLogo from "/CESA_LOGO.png";
 import IITRoparLogo from "/IITRopar.png";
 import { useState } from "react";
 import { useEffect } from "react";
