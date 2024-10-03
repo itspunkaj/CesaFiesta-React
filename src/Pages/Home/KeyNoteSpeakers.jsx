@@ -16,9 +16,9 @@ const Card = (props) => {
 }
 function KeyNoteSpeakers() {
     return (
-        <div className="py-4">
+        <div className="py-4 h-[400px] ">
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
-            <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
+            {/* <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
                 <Card imageUrl={DrVVSrinivas} link='http://www.civil.iisc.ac.in/people/srinivas-v-v/' name='Prof. Srinivas V V' college='IISC Bangalore' />
                 <Card imageUrl="https://civil.iitr.ac.in/IMG/4-RDGarg..jpg" link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Rahul Dev Garg' college='IIT Roorkee' />
                 <Card imageUrl="https://civil.iitr.ac.in/IMG/6-UmeshKumar.jpg" link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Umesh Kumar Sharma' college='IIT Roorkee' />
@@ -27,7 +27,8 @@ function KeyNoteSpeakers() {
                 <Card imageUrl="https://home.iitk.ac.in/~mukesh/images/mukesh.JPG" link='https://home.iitk.ac.in/~mukesh/' name='Prof. Mukesh Sharma' college='IIT Kanpur' />
                 <Card name='To be Updated Soon...'/>
             </div>
-            </center>
+            </center> */}
+            <h3 className="text-center text-3xl  font-bold mt-32">Will be updated soon...</h3>
         </div>
     )
 }
