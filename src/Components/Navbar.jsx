@@ -24,7 +24,7 @@ const tabs = [
   label : 'Abstract',
   subItems : [
     { id : 'guidelines', label : 'Guidelines', to : '/abstract/guidelines'},
-    { id : 'submission', label : 'Submissions', to : 'https://docs.google.com/forms/d/e/1FAIpQLSe9St5TCyBjTqcldqnxohiIUT3zXZJLYywklaE0G5NQbHoomQ/viewform'}
+    { id : 'submission', label : 'Submissions', to : 'https://docs.google.com/forms/d/e/1FAIpQLSfC4LJPlu5tpzSKH3UX-AUB9983wOJ-mr8JeEljMjZ-Lf7wNQ/viewform'}
   ]
  },
  {

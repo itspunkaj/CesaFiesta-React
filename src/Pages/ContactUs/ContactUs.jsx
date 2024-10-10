@@ -44,13 +44,13 @@ function ContactUs() {
         <h3 className="text-center text-4xl pt-8 md:pt-12 font-semibold">Faculty Organising Committee</h3>
         <center><div className="w-[90%] max-w-[1500px] grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 md:px-0 gap-6 py-8 md:py-12 ">
           <Card imageUrl={drsagar} name="Dr. Sagar Rohidas Chavan"
-            link="https://www.iitrpr.ac.in/cse/sagarrohidas" designation="Head of Department" 
+            link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas" designation="Head of Department" 
             email="hodce@iitrpr.ac.in" />
           <Card imageUrl={DrShray} name="Dr. Shray Pathak" 
-            link="https://scholar.google.co.in/citations?user=JId_NPEAAAAJ&hl=en" designation="Assistant Professor"
+            link="https://sites.google.com/view/shraypathak" designation="Assistant Professor"
             email="shray.pathak@iitrpr.ac.in"/>
           <Card imageUrl={DrGanesh} name="Dr. Ganesh Ravi" 
-            link="https://scholar.google.com/citations?user=GYBJrXoAAAAJ&hl=en&oi=sra" designation="Assistant Professor"
+            link="https://sites.google.com/view/ravi-ganesh/home" designation="Assistant Professor"
             email="ganesh@iitrpr.ac.in"/>
           <Card imageUrl="https://d3s9yd6qcwjotm.cloudfront.net/ProfileImage/6589.jpg" name="Dr. Indramani Dhada" 
             link="https://www.iitrpr.ac.in/civilfaculty/indramani-dhada" designation="Assistant Professor"

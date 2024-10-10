@@ -19,11 +19,11 @@ function Welcome() {
           <div className="my-10 text-lg leading-relaxed">
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-            <a className="text-firstColor font-medium hover:text-thirdColor ml-2" href='https://drive.google.com/file/d/1sZK0oQAcTdVAqaFqV2gceL6pjhV7m0SS/view?usp=drive_link' target='blank_'>Announcement</a>
+            <a className="text-firstColor font-medium hover:text-thirdColor ml-2" href='https://drive.google.com/file/d/1SeOfKwvjtaQNEWSAIWRIm3AKmW-_q6K2/view?usp=sharing' target='blank_'>Announcement</a>
             </div>
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1Br7zP-COs0EhIQ9I2Eko-dS6qo29sKIS/view?usp=drive_link' target='blank_'>Detailed Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1WWcoCSvy-2naH4LGV4VJtRhrPZYZHm35/view?usp=sharing' target='blank_'>Detailed Brochure</a>
             </div>   
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
