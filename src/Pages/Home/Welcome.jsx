@@ -24,11 +24,7 @@ function Welcome() {
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
               <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1Br7zP-COs0EhIQ9I2Eko-dS6qo29sKIS/view?usp=drive_link' target='blank_'>Detailed Brochure</a>
-            </div>  
-            <div className="flex flex-row items-center hover:thirdColor ">
-              <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1r0VHG8QrUP69gR71CjrbANY8kKPg7KKm/view?usp=drive_link' target='blank_'>International Brochure</a>
-            </div>    
+            </div>   
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
               <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1jCfBTzvRSFh-unGSPQj5niBgMU-b6mRp/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>

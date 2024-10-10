@@ -8,7 +8,7 @@ function Footer() {
     <div className="bg-firstColor h-auto pt-8 md:pt-0">
       <div className="flex flex-col md:flex-row">
         <div className="p-10 py-2 md:pr-0 md:basis-1/3 md:py-10 md:pl-20 text-fourthColor">
-          <h2 className="text-4xl mb-4">CESAFIESTA Overall Coordinator</h2>
+          <h2 className="text-4xl mb-4">CESAFIESTA 3.0</h2>
           <div className="text-xl font-semibold space-y-1">
           <div className="flex flex-row items-center"><FontAwesomeIcon icon={faLocationDot} className="h-[20px] w-[20px]"/><div className="ml-2"> Department of Civil Engineering,</div></div>
             <div className="ml-7">Indian Institute of Technology</div>
