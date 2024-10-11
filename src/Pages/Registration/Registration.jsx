@@ -114,7 +114,7 @@ function Registration() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center md:text-xl font-bold px-10 py-3">📌 Selected abstracts will be considered for book chapters published by Springer Nature</div>
+      <div className="flex justify-center md:text-xl font-bold px-10 py-3">📌 Selected abstracts will be considered for book chapters published by Springer Nature and Elsevier.</div>
       <div className="flex flex-col  px-10">
         <div className="md:text-4xl font-bold">Guidelines:-</div><br></br>
         <div>
@@ -122,7 +122,7 @@ function Registration() {
             <li>Registration is secured after payment of the registration fee.</li>
             <li className="py-2">Registrations are non-transferable, the person registering for the conference and secured payment would only be allowed to participate in the event.</li>
             <li className="py-2">The registration fee is non-refundable.</li>
-            <li className="py-2">Each registration allows a maximum of one presentations. For participants with more than one abstracts need to re-register.</li>
+            <li className="py-2">Each registration allows a maximum of two presentations. For participants with more than one abstract, an additional registration is required.</li>
             <li className="py-2">If a co-author plans to attend alongside the presenter, the co-author must register separately.</li>
             <li className="py-2">Registering for the conference implies automatic acceptance of the event's <a className="text-red-600 hover:text-thirdColor hover:underline " target="_blank" href="https://drive.google.com/file/d/1KDb7hNvkn32XDOPSdF8ClQbBv3xFiizP/view?usp=drive_link">code of conduct</a>.</li>
             <li className="py-2">No further registration is allowed after November 30,2024</li>
