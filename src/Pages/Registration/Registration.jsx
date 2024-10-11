@@ -122,10 +122,10 @@ function Registration() {
             <li>Registration is secured after payment of the registration fee.</li>
             <li className="py-2">Registrations are non-transferable, the person registering for the conference and secured payment would only be allowed to participate in the event.</li>
             <li className="py-2">The registration fee is non-refundable.</li>
-            <li className="py-2">Each registration allows a maximum of two presentations. However, participants with more than two abstracts need to re-register.</li>
-            <li className="py-2">In case of any co-author accompanying the presenter, the co-author need to register separately.</li>
-            <li className="py-2">Registration for the conference implies automatic acceptance of the <a className="text-red-600 hover:text-thirdColor hover:underline " target="_blank" href="https://drive.google.com/file/d/1KDb7hNvkn32XDOPSdF8ClQbBv3xFiizP/view?usp=drive_link">rule of conduct</a>.</li>
-            <li className="py-2">No further registration is allowed after 20.02.2024.</li>
+            <li className="py-2">Each registration allows a maximum of one presentations. For participants with more than one abstracts need to re-register.</li>
+            <li className="py-2">If a co-author plans to attend alongside the presenter, the co-author must register separately.</li>
+            <li className="py-2">Registering for the conference implies automatic acceptance of the event's <a className="text-red-600 hover:text-thirdColor hover:underline " target="_blank" href="https://drive.google.com/file/d/1KDb7hNvkn32XDOPSdF8ClQbBv3xFiizP/view?usp=drive_link">code of conduct</a>.</li>
+            <li className="py-2">No further registration is allowed after November 30,2024</li>
             <li className='py-2'>The poster dimension should be 36 inches (3 feet) wide X 48 inches (4 feet) high.</li>
             <li className='py-2'>You may print the poster on the material of your convenience providing the content/figure/tables are clearly visible with no defects.</li>
           </ul>
