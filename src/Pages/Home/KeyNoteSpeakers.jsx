@@ -32,7 +32,8 @@ function KeyNoteSpeakers() {
         <div className="py-4 ">
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
-                <Card imageUrl={ahsan} link='http://www.civil.iisc.ac.in/people/srinivas-v-v/' name='' college=' ' designation='' />
+                <Card imageUrl={ahsan} link='http://www.civil.iisc.ac.in/people/srinivas-v-v/' name='Prof. Chris Zevenbergen' college=' IHE Delft Institute for
+Water Education, The Netherlands' designation='Professor' />
                 <Card imageUrl={upaka} link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Upaka Rathnayake' college='Atlantic Technological University, Ireland' designation='Professor'/>
                 <Card imageUrl={ahsan2} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Ahsan Habib' college='Dalhousie University, Canada' designation='Professor'/>
                 <Card imageUrl={salim} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Salim Barbhuiya' college='University of East London' designation='Senior Lecturer'/>
