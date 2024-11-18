@@ -2,10 +2,10 @@ import Qr from './QRCodeRevnueAccount.jpg'
 function Registration() {
   return (
     <div className="bg-fourthColor pb-20">
-      {/* <div className='bg-secondColor'>
+      <div className='bg-secondColor'>
         <div className="flex justify-center md:text-xl py-2 text-black"> The registrations have started.&nbsp; <a className=" text-thirdColor underline "
-          target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfxGyJKUjSDJcTS-teLv7oU5UpjQrhTCeisp7C766AqCn_Kw/viewform">Click Here  </a>&nbsp; to register</div>
-      </div> */}
+          target="_blank" href="https://forms.gle/joGAQa8wV7m4YiuZA">Click Here  </a>&nbsp; to register</div>
+      </div>
       <div className="flex justify-center py-3" >
         <div className=" text-3xl md:text-4xl justify-center font-bold">Registration Fees</div>
       </div>
@@ -93,7 +93,7 @@ function Registration() {
             <div className="text-3xl font-semibold">Notifications</div>
             <div className="my-10 text-lg leading-relaxed">
               <ul className="list-disc pl-5">
-              {/* <li><a className="text-firstColor font-medium hover:text-thirdColor py-2" href='https://docs.google.com/forms/d/e/1FAIpQLScfxGyJKUjSDJcTS-teLv7oU5UpjQrhTCeisp7C766AqCn_Kw/viewform' target='blank_'>Click here </a> to register</li> */}
+              <li><a className="text-firstColor font-medium hover:text-thirdColor py-2" href='https://forms.gle/joGAQa8wV7m4YiuZA' target='blank_'>Click here </a> to register</li>
                 <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mPXSCvjDbYVOnD0bi9o0bgFD0vZW4xr3/edit#slide=id.p1' target='blank_'>Presentation Tempelate</a></li>
                 <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mQgTIQtOpmEj2hbELKVoTWTv33eUm8jW/edit#slide=id.p1' target='blank_'>Poster Tempelate</a></li>
               </ul>
