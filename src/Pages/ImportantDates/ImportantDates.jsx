@@ -15,7 +15,7 @@ function ImportantDates() {
             <tbody>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Abstract Submission</td>
-                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">1st October - 11th November 2024</td>
+                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">1st October - 5th December 2024</td>
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Notification of Acceptance</td>
@@ -23,8 +23,8 @@ function ImportantDates() {
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Opening of Online Registration</td>
-                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3"><div><b>Early Bird offer</b> - 4th to 15th November 2024</div>
-                          <div><b>Regular fees</b> - 16th to 30th November 2024</div></td>
+                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3"><div><b>Early Bird offer</b> - 4th to 15th December 2024</div>
+                          <div><b>Regular fees</b> - 10th to 15th December 2024</div></td>
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Symposium Date</td>
