@@ -2,7 +2,7 @@
 import DrVVSrinivas from './VVSrinivas.jpg'
 import ahsan from './ahsan.png'
 import upaka from './upaka.png'
-import ahsan2 from './ahsan2.png'
+import ahsan2 from './Praveen.jpg'
 import salim from  './4.png'
 import sujata from './5.png'
 import aparna from './6.png'
@@ -14,7 +14,7 @@ import siddhartha from './11.png'
 import rahul from './12.jpeg'
 import bhava from './13.png'
 import dola from './14.png'
-import brig from './15.png'
+import brig from './chunendra.jpeg'
 const Card = (props) => {
     return (
         <div className="flex flex-col bg-fourthColor h-auto min-h-64 w-[175px] sm:w-[180px] lg:w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3-2">
@@ -35,7 +35,7 @@ function KeyNoteSpeakers() {
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
                 <Card imageUrl={ahsan} link='http://www.civil.iisc.ac.in/people/srinivas-v-v/' name='Prof. Chris Zevenbergen' college=' IHE Delft Institute for
 Water Education, The Netherlands' designation='Professor' />
-                 <Card imageUrl={ahsan2} link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Dafang Fu' college='Southeast University, China' designation='Professor'/> 
+                 <Card imageUrl={ahsan2} link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Praveen Kumar' college='IIT Roorkee' designation='Professor'/> 
                  <Card imageUrl={upaka} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Rajendra Prasad Singh' college='Southeast University, China' designation='Professor'/>
                  <Card imageUrl={aparna} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Aparna Shukla' college='Ministry of Earth Science' designation='Scientist E'/>
                  <Card imageUrl={salim} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Debasis Deb' college='IIT Kharagpur' designation='Professor'/>
@@ -47,7 +47,7 @@ Water Education, The Netherlands' designation='Professor' />
                  <Card imageUrl={gandhi} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name=' Vinod Kumar Mauriya' college='NTPC-CC EOC, Hyderabad' designation='Dy. General Manager(PE-Civil)'/>
                  <Card imageUrl={rupesh} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Manish Pandey' college='IIT Kharagpur' designation='Assistant Professor'/>
                  <Card imageUrl={siddhartha} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Preeti Pal' college='' designation=' JSPS-Postdoctoral Fellow'/>
-                 <Card imageUrl={brig} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Brigadier Jagdeep Kapoor' college=' Military Engineering Services' designation='Brigadier and CE'/>
+                 <Card imageUrl={brig} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Chunendra Sahu' college='IIT Kanpur' designation='Assistant Professor'/>
             </div>
             </center>
             

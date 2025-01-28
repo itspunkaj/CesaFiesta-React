@@ -73,8 +73,6 @@ function ContactUs() {
           email="saroj.20cez0006@iitrpr.ac.in" />
           <Card2 imageUrl={Shreya} name="Shreya Ganguly" designation="Technical"
           email="shreya.19cez0011@iitrpr.ac.in"/>
-          <Card2 imageUrl={Aarathi} name="Aarathi Shylu" designation="Cultural" 
-          email="aarathi.21cez0009@iitrpr.ac.in"/>
           <Card2 imageUrl={Aditya} name="Aditya Kandpal" designation="Web Development"
           email="2021ceb1004@iitrpr.ac.in" />
         </div>
