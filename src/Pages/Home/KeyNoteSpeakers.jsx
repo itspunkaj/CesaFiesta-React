@@ -15,6 +15,7 @@ import rahul from './12.jpeg'
 import bhava from './13.png'
 import dola from './14.png'
 import brig from './chunendra.jpeg'
+import kaizad from './kaizad.jpeg'
 const Card = (props) => {
     return (
         <div className="flex flex-col bg-fourthColor h-auto min-h-64 w-[175px] sm:w-[180px] lg:w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3-2">
@@ -48,6 +49,7 @@ Water Education, The Netherlands' designation='Professor' />
                  <Card imageUrl={rupesh} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Manish Pandey' college='IIT Kharagpur' designation='Assistant Professor'/>
                  <Card imageUrl={siddhartha} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Preeti Pal' college='' designation=' JSPS-Postdoctoral Fellow'/>
                  <Card imageUrl={brig} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Chunendra Sahu' college='IIT Kanpur' designation='Assistant Professor'/>
+                 <Card imageUrl={kaizad} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Mr. Kaizad Engineer' college='Ushta Infinity Const. Co. Pvt. Ltd.' designation='Director Technical'/>
             </div>
             </center>
             
