@@ -7,7 +7,7 @@ function Welcome() {
         <div className="col-span-12 md:col-span-8 pr-2">
           <div className="text-3xl font-semibold">Introduction</div>
           <div className="my-10 text-lg leading-relaxed justify-center items-center text-justify">The Department of Civil Engineering at the Indian Institute of Technology 
-            Ropar is all set to host the ‘Civil Engineering Student Association Fiesta’ (CESAFIESTA) for the third consecutive year on 8ᵗʰ & 9ᵗʰ February 2025. 
+            Ropar is all set to host the ‘Civil Engineering Student Association Fiesta’ (CESAFIESTA) for the third consecutive year on 21ᵗʰ & 22ᵗʰ February 2026. 
             This 2-day symposium is attributed to the celebration of science, innovation and research in a diverse spectrum of civil engineering. This initiative 
             connects academia with the civil engineering sector, focusing on the confluence of cutting-edge technology and sustainable construction methodologies. 
             This initiative seeks to unite researchers from diverse sectors, cultivating their talents to collectively drive the nation's progress through skill-building, 
