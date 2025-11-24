@@ -23,7 +23,8 @@ function CoreTeam() {
         <div className="bg-fourthColor">
             <h3 className="text-center text-4xl pt-8 md:pt-12 font-semibold">Faculty Organising Committee</h3>
             <center><motion.div className="w-[90%] flex-row max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-4 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
-            <Card imageUrl={DrSagar} name="Dr. Sagar Rohidas Chavan" designation="Chairperson" link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas"/>
+            <Card imageUrl={DrSagar} name="Dr. Reet Kamal Tiwari" designation="Chairperson" link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas"/>
+            <Card imageUrl={DrSagar} name="Dr. Sagar Rohidas Chavan" designation="Convenor" link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas"/>
             <Card imageUrl={DrShray} name="Dr. Shray Pathak" designation="Convenor" link="https://sites.google.com/view/shraypathak"/>
             <Card imageUrl={DrGanesh} name="Dr. Ganesh Ravi" designation="Co-Convenor" link="https://sites.google.com/view/ravi-ganesh/home"/>
             <Card imageUrl="https://d3s9yd6qcwjotm.cloudfront.net/ProfileImage/6589.jpg" name="Dr. Indramani Dhada" designation="Co-Convenor" link="https://www.iitrpr.ac.in/civilfaculty/indramani-dhada"/>
