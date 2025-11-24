@@ -33,7 +33,7 @@ function Header() {
         </div>
         <div className="flex text-firstColor flex-col justify-center items-center">
           <h3 className="text-[42px] font-bold leading-[46.2px] font-sans">
-            CESAFIESTA 3.0
+            CESAFIESTA 4.0
           </h3>
           <h4
             className="text-[25px] leading-[38.5px] vertical-align:baseline letter-spacing:-1.75px word-spacing:0px font-weight:600
