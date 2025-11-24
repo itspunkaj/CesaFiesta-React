@@ -39,7 +39,7 @@ function Header() {
             className="text-[25px] leading-[38.5px] vertical-align:baseline letter-spacing:-1.75px word-spacing:0px font-weight:600
             font-style:normal font-variant:normal text-transform:uppercase"
           >
-            8-9 February, 2025
+            21-22 February, 2026
           </h4>
           <h4 className="text-xl">Ropar, India</h4>
         </div>
