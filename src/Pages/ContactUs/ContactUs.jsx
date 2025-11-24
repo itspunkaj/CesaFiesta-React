@@ -43,18 +43,18 @@ function ContactUs() {
       <div className="bg-fourthColor">
         <h3 className="text-center text-4xl pt-8 md:pt-12 font-semibold">Faculty Organising Committee</h3>
         <center><div className="w-[90%] max-w-[1500px] grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 md:px-0 gap-6 py-8 md:py-12 ">
-          <Card imageUrl={drsagar} name="Dr. Sagar Rohidas Chavan"
-            link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas" designation="Head of Department" 
+          <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Reet-min.jpg" name="Dr. Reet Kamal Tiwari"
+            link="https://www.linkedin.com/in/dr-reet-kamal-tiwari-41932016/" designation="Head of Department" 
             email="hodce@iitrpr.ac.in" />
-          <Card imageUrl={DrShray} name="Dr. Shray Pathak" 
-            link="https://sites.google.com/view/shraypathak" designation="Assistant Professor"
-            email="shray.pathak@iitrpr.ac.in"/>
-          <Card imageUrl={DrGanesh} name="Dr. Ganesh Ravi" 
-            link="https://sites.google.com/view/ravi-ganesh/home" designation="Assistant Professor"
-            email="ganesh@iitrpr.ac.in"/>
-          <Card imageUrl="https://d3s9yd6qcwjotm.cloudfront.net/ProfileImage/6589.jpg" name="Dr. Indramani Dhada" 
-            link="https://www.iitrpr.ac.in/civilfaculty/indramani-dhada" designation="Assistant Professor"
-            email="idhada@iitrpr.ac.in"/>  
+          <Card imageUrl={drsagar} name="Dr. Sagar Rohidas Chavan" 
+            link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas" designation="Associate Professor"
+            email="sagar@iitrpr.ac.in"/>
+          <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Ickkshaanshu-min.jpg" name="Dr. Ickkshaanshu Sonkar" 
+            link="https://scholar.google.com/citations?user=DQkTdrwAAAAJ&hl=en" designation="Assistant Professor"
+            email="ickkshaanshu@iitrpr.ac.in"/>
+          <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Sayantan-min.jpg" name="Dr. Sayantan Ganguly" 
+            link="https://sites.google.com/view/dr-sayantan-ganguly/home" designation="Assistant Professor"
+            email="sayantan.ganguly@iitrpr.ac.in"/>  
         </div>
         </center>
       </div>
