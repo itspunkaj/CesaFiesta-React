@@ -19,15 +19,15 @@ function Welcome() {
           <div className="my-10 text-lg leading-relaxed">
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-            <a className="text-firstColor font-medium hover:text-thirdColor ml-2" href='https://drive.google.com/file/d/1SeOfKwvjtaQNEWSAIWRIm3AKmW-_q6K2/view?usp=sharing' target='blank_'>Announcement</a>
+            <a className="text-firstColor font-medium hover:text-thirdColor ml-2" href='https://drive.google.com/file/d/1nYFKV734o2VLrM2vs1KL4NVHHevpm5k8/view?usp=drive_link' target='blank_'>Announcement</a>
             </div>
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1yJyXQz_Hv5IpbrkAWExtygXJhJL9zV4G/view' target='blank_'>Detailed Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1GwQp30Lp1V2STXGIFLycME6-MEk2pD_R/view?usp=drive_link' target='blank_'>Detailed Brochure</a>
             </div>   
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1hcFi9rJZbbosXkvHPjQsWNaI62U7OtXq/view' target='blank_'>Sponsorship Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1bzUDaL1qaEVA8JvZajXW7ts6kvd43gS5/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>
             </div>    
            </div>   
         </div>
