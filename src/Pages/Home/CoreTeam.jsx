@@ -26,7 +26,7 @@ function CoreTeam() {
             <center><motion.div className="w-[90%] flex-row max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-4 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
             <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Reet-min.jpg" name="Dr. Reet Kamal Tiwari" designation="Chairperson" link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas"/>
             <Card imageUrl={DrSagar} name="Dr. Sagar Rohidas Chavan" designation="Convenor" link="https://www.iitrpr.ac.in/civilfaculty/sagarrohidas"/>
-            <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Ickkshaanshu-min.jpg" name="Dr. Ickkshaanshu Sonkar" designation="Co-Convenor" link="https://sites.google.com/view/shraypathak"/>
+            <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Ickkshaanshu-min.jpg" name="Dr. Ickkshaanshu Sonkar." designation="Co-Convenor" link="https://sites.google.com/view/shraypathak"/>
             <Card imageUrl="https://www.iitrpr.ac.in/civil/wp-content/uploads/2022/05/Sayantan-min.jpg" name="Dr. Sayantan Ganguly" designation="Co-Convenor" link="https://sites.google.com/view/ravi-ganesh/home"/>
             </motion.div>
             </center>
