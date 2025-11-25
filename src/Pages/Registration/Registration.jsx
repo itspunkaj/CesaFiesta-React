@@ -2,10 +2,7 @@ import Qr from './QRCodeRevnueAccount.jpg'
 function Registration() {
   return (
     <div className="bg-fourthColor pb-20">
-      <div className='bg-secondColor'>
-        <div className="flex justify-center md:text-xl py-2 text-black"> The registrations have started.&nbsp; <a className=" text-thirdColor underline "
-          target="_blank" href="https://forms.gle/joGAQa8wV7m4YiuZA">Click Here  </a>&nbsp; to register</div>
-      </div>
+
       <div className="flex justify-center py-3" >
         <div className=" text-3xl md:text-4xl justify-center font-bold">Registration Fees</div>
       </div>
