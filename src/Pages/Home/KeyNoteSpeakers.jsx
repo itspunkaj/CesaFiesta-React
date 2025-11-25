@@ -38,18 +38,6 @@ function KeyNoteSpeakers() {
 Water Education, The Netherlands' designation='Professor' />
                  <Card imageUrl={ahsan2} link='https://civil.iitr.ac.in/CE?Uid=garg_fce' name='Prof. Praveen Kumar' college='IIT Roorkee' designation='Professor'/> 
                  <Card imageUrl={upaka} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Rajendra Prasad Singh' college='Southeast University, China' designation='Professor'/>
-                 <Card imageUrl={aparna} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Aparna Shukla' college='Ministry of Earth Science' designation='Scientist E'/>
-                 <Card imageUrl={salim} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Prof. Debasis Deb' college='IIT Kharagpur' designation='Professor'/>
-                 <Card imageUrl={bhava} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Bhavathrathan B K' college='IIT Palakkad' designation='Associate Professor'/>
-                 <Card imageUrl={rahul} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Rahul Khanna' college='National Hydroelectric Power Corporation Ltd.' designation='General Manager (Geotech)'/>
-                 <Card imageUrl={dola} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Ms. Dola Roychowdhury' college='G-Cube Consulting Engineers LLP' designation='Founder Director'/>
-                 <Card imageUrl={unmesh} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Unmesh Khati' college='IIT Indore' designation='Assistant Professor'/>   
-                 <Card imageUrl={anurag} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name=' Mr. Rupesh Kumar' college='Kalpataru Projects International Ltd ' designation=' Assistant Vice President'/>
-                 <Card imageUrl={gandhi} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name=' Vinod Kumar Mauriya' college='NTPC-CC EOC, Hyderabad' designation='Dy. General Manager(PE-Civil)'/>
-                 <Card imageUrl={rupesh} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Manish Pandey' college='IIT Kharagpur' designation='Assistant Professor'/>
-                 <Card imageUrl={siddhartha} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Preeti Pal' college='' designation=' JSPS-Postdoctoral Fellow'/>
-                 <Card imageUrl={brig} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Dr. Chunendra Sahu' college='IIT Kanpur' designation='Assistant Professor'/>
-                 <Card imageUrl={kaizad} link='https://civil.iitr.ac.in/CE?Uid=umuksfce' name='Mr. Kaizad Engineer' college='Ushta Infinity Const. Co. Pvt. Ltd.' designation='Director Technical'/>
             </div>
             </center>
             
