@@ -36,7 +36,7 @@ function KeyNoteSpeakers() {
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
                 <Card imageUrl='https://drive.google.com/file/d/1ee4hxh4a9hKB0Rva2EU6kIsGpBrp4T7x/view?usp=drive_link' link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
                  <Card imageUrl='' link='#' name='Prof. Praveen Kumar' college='IIT Roorkee' designation='Professor'/> 
-                 <Card imageUrl={upaka} link='#' name='Prof. Rajendra Prasad Singh' college='Southeast University, China' designation='Professor'/>
+                 <Card imageUrl={upaka} link='#' name='Prof Rajendra Prasad Singh' college='Southeast University, China' designation='Professor'/>
             </div>
             </center>
             
