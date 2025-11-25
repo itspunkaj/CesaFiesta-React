@@ -45,7 +45,7 @@ const tabs = [
   subItems:[
     {id:'cf1',label:'CESAFIESTA 1.0', to : '/cesa-fiesta-1.0'},
     {id:'cf2',label:'CESAFIESTA 2.0', to : '/cesa-fiesta-2.0'},
-    {id:'cf2',label:'CESAFIESTA 2.0', to : '/cesa-fiesta-2.0'},
+    {id:'cf2',label:'CESAFIESTA 3.0', to : '/cesa-fiesta-3.0'},
   ]
  },
  {
