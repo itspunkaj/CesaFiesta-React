@@ -24,7 +24,7 @@ const tabs = [
   label : 'Abstract',
   subItems : [
     { id : 'guidelines', label : 'Guidelines', to : '/abstract/guidelines'},
-    { id : 'submission', label : 'Submissions', to : 'https://docs.google.com/forms/d/e/1FAIpQLSfC4LJPlu5tpzSKH3UX-AUB9983wOJ-mr8JeEljMjZ-Lf7wNQ/viewform'}
+    { id : 'submission', label : 'Submissions', to : '#'}
   ]
  },
  {
@@ -44,6 +44,7 @@ const tabs = [
   label : 'GLIMPSE',
   subItems:[
     {id:'cf1',label:'CESAFIESTA 1.0', to : '/cesa-fiesta-1.0'},
+    {id:'cf2',label:'CESAFIESTA 2.0', to : '/cesa-fiesta-2.0'},
     {id:'cf2',label:'CESAFIESTA 2.0', to : '/cesa-fiesta-2.0'},
   ]
  },
