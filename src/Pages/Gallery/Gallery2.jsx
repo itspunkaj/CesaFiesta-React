@@ -29,6 +29,7 @@ function Gallery2() {
         <img className="w-auto max-w-96 object-cover object-center " src={image10} alt="" />
         <img className="w-auto max-w-96 object-cover object-center " src={image11} alt="" />
         <img className="w-auto max-w-96 object-cover object-center " src={image12} alt="" />
+        <img className="w-auto max-w-96 object-cover object-center " src={image12} alt="" />
       </div>
     </div>
   )
