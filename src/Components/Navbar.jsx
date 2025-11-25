@@ -24,7 +24,7 @@ const tabs = [
   label : 'Abstract',
   subItems : [
     { id : 'guidelines', label : 'Guidelines', to : '/abstract/guidelines'},
-    { id : 'submission', label : 'Submissions', to : '#'}
+    { id : 'submission', label : 'Submissions', to : 'target="_blank" #'}
   ]
  },
  {
