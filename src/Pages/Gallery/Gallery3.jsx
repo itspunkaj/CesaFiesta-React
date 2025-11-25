@@ -15,7 +15,7 @@ import image12 from './Images/34.webp'
 function Gallery2() {
   return (
     <div className="p-10 pt-0 w-full bg-fourthColor">
-      <div className='flex justify-center item-center text-4xl font-bold py-12'>CESA Fiesta 3.0</div>
+      <div className='flex justify-center item-center text-4xl font-bold py-12'>CESA Fiesta 3.0.</div>
       <div className="grid grid-cols-1 justify-items-center gap-x-0 gap-y-16 space-between md:grid-cols-2 lg:grid-cols-3">
         <img className="w-auto max-w-96 object-cover object-center " src={image2} alt="" />
         <img className="w-auto max-w-96 object-cover object-center " src={image1} alt="" />
