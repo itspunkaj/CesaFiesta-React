@@ -78,7 +78,7 @@ function ContactUs() {
           email="avinash.22cez0006@iitrpr.ac.in" />
           <Card2 imageUrl={monika} name="monika" designation="Technical"
           email="monika.21cez0012@iitrpr.ac.in"/>
-          <Card2 imageUrl={ankit} name="Ankit Raj" designation="Web Development"
+          <Card2 imageUrl={ankit} name="Ankit" designation="Web Development"
           email="2025cem1016@iitrpr.ac.in" />
         </div>
         </center>
