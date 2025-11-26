@@ -63,18 +63,18 @@ function ContactUs() {
         <center><div className="w-[90%] max-w-[1500px] grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 md:px-0 gap-6 py-8 md:py-12 ">
           <Card2 imageUrl={Bipul} name="Bipul Sharma" designation="Advisor" 
           email="bipul.22cez0003@iitrpr.ac.in"/>
-          <Card2 imageUrl={Abhi} name="Abhishek Sonkar" designation="General Secretary"
+          <Card2 imageUrl={Abhi} name="Abhishek Sonkar" designation="Advisor"
           email="abhishek.22cez0004@iitrpr.ac.in"/>
-          <Card2 imageUrl={Amit} name="Amit Kumar" designation="Arrangement and Hospitality" 
+          <Card2 imageUrl={Amit} name="Vishal bashist" designation="Arrangement and Hospitality" 
           email="amit.20cez0003@iitrpr.ac.in"/>
-          <Card2 imageUrl={Tanisha} name="Tanisha Ghosh" designation="Content" 
-          email="tanisha.20cez0009@iitrpr.ac.in"/>
-          <Card2 imageUrl={Saroj} name="Saroj Rana" designation="Sponsorship"
-          email="saroj.20cez0006@iitrpr.ac.in" />
-          <Card2 imageUrl={Shreya} name="Shreya Ganguly" designation="Technical"
-          email="shreya.19cez0011@iitrpr.ac.in"/>
-          <Card2 imageUrl={Aditya} name="Aditya Kandpal" designation="Web Development"
-          email="2021ceb1004@iitrpr.ac.in" />
+          <Card2 imageUrl={Tanisha} name="Neha G Paswan " designation="Content" 
+          email="Neha.23cez0014@iitrpr.ac.in"/>
+          <Card2 imageUrl={Saroj} name="Avinash kumar sharma " designation="Sponsorship"
+          email="avinash.22cez0006@iitrpr.ac.in" />
+          <Card2 imageUrl={Shreya} name="monika" designation="Technical"
+          email="monika.21cez0012@iitrpr.ac.in"/>
+          <Card2 imageUrl={Aditya} name="Ankit Raj" designation="Web Development"
+          email="2025cem1016@iitrpr.ac.in" />
         </div>
         </center>
       </div>
