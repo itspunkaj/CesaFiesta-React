@@ -10,6 +10,11 @@ import Tanisha from "./Tanisha.jpg"
 import Amit from "./Amit.jpg"
 import Aditya from "./Aditya.jpeg"
 import Saroj from "./Saroj.jpg"
+import ankit from "./5n.jpeg"
+import monika from "./2n.jpeg"
+import Neha from "./3n.jpeg"
+import Avinash from "./4n.jpeg"
+import Vishal from "./in.jpg"
 const Card = (props) => {
   return (
     <div className="bg-white h-auto w-[240px] border-4 border-firstColor rounded-xl shadow-sm py-3">
@@ -65,15 +70,15 @@ function ContactUs() {
           email="bipul.22cez0003@iitrpr.ac.in"/>
           <Card2 imageUrl={Abhi} name="Abhishek Sonkar" designation="Advisor"
           email="abhishek.22cez0004@iitrpr.ac.in"/>
-          <Card2 imageUrl={Amit} name="Vishal bashist" designation="Arrangement and Hospitality" 
+          <Card2 imageUrl={Vishal} name="Vishal bashist" designation="Arrangement and Hospitality" 
           email="amit.20cez0003@iitrpr.ac.in"/>
-          <Card2 imageUrl={Tanisha} name="Neha G Paswan " designation="Content" 
+          <Card2 imageUrl={Neha} name="Neha G Paswan " designation="Content" 
           email="Neha.23cez0014@iitrpr.ac.in"/>
-          <Card2 imageUrl={Saroj} name="Avinash kumar sharma " designation="Sponsorship"
+          <Card2 imageUrl={Avinash} name="Avinash kumar sharma " designation="Sponsorship"
           email="avinash.22cez0006@iitrpr.ac.in" />
-          <Card2 imageUrl={Shreya} name="monika" designation="Technical"
+          <Card2 imageUrl={monika} name="monika" designation="Technical"
           email="monika.21cez0012@iitrpr.ac.in"/>
-          <Card2 imageUrl={Aditya} name="Ankit Raj" designation="Web Development"
+          <Card2 imageUrl={ankit} name="Ankit Raj" designation="Web Development"
           email="2025cem1016@iitrpr.ac.in" />
         </div>
         </center>
