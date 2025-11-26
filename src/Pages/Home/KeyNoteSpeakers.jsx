@@ -16,6 +16,9 @@ import bhava from './13.png'
 import dola from './14.png'
 import brig from './chunendra.jpeg'
 import kaizad from './kaizad.jpeg'
+import ashish from './3n.png'
+import basudev from './2n.png'
+import srgandhi from './1n.png'
 const Card = (props) => {
     return (
         <div className="flex flex-col bg-fourthColor h-auto min-h-64 w-[175px] sm:w-[180px] lg:w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3-2">
@@ -34,9 +37,9 @@ function KeyNoteSpeakers() {
         <div className="py-4 ">
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
-                <Card imageUrl='https://drive.google.com/file/d/1ee4hxh4a9hKB0Rva2EU6kIsGpBrp4T7x/view?usp=drive_link' link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
-                 <Card imageUrl='https://drive.google.com/file/d/1tE62cHCU-51CwlXApAa3_AZQRO-ML-Tl/view?usp=drive_link' link='#' name='Prof. S R Gandhi' college='IIT Gandhinagar' designation='Professor'/> 
-                 <Card imageUrl='https://drive.google.com/file/d/1oAHh3qkVPTPGq1A-_QTKBiINGbL1U79E/view?usp=drive_link' link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
+                <Card imageUrl={ashish} link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
+                 <Card imageUrl={srgandhi} link='#' name='Prof. S R Gandhi' college='IIT Gandhinagar' designation='Professor'/> 
+                 <Card imageUrl={basudev} link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
             </div>
             </center>
             
