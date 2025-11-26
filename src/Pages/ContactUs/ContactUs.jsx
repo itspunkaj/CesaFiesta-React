@@ -14,7 +14,7 @@ import ankit from "./5n.jpeg"
 import monika from "./2n.jpeg"
 import Neha from "./3n.jpeg"
 import Avinash from "./4n.jpeg"
-import Vishal from "./in.jpg"
+import Vishal from "./1n.jpg"
 const Card = (props) => {
   return (
     <div className="bg-white h-auto w-[240px] border-4 border-firstColor rounded-xl shadow-sm py-3">
