@@ -24,11 +24,11 @@ function ImportantDates() {
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Opening of Online Registration</td>
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3"><div><b>Early Bird offer</b> - 10th to 30th January 2026</div>
-                          <div><b>Regular fees</b> - 31th to 15th January 2026</div></td>
+                          <div><b>Regular fees</b> - 31st to 15th January 2026</div></td>
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Symposium Date</td>
-                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">21th February - 22nd February 2026</td>
+                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">21st February - 22nd February 2026</td>
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Venue</td>
