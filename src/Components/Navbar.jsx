@@ -66,7 +66,6 @@ const tabs = [
   to : '/contact-us'
  }
 ];
-
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);      // for smaller screens hamburger navbar menu
   const [hoveredTab, setHoveredTab] = useState(null);
