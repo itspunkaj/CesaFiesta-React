@@ -19,6 +19,9 @@ import kaizad from './kaizad.jpeg'
 import ashish from './3n.png'
 import basudev from './2n.png'
 import srgandhi from './1n.png'
+import sunil from './sn1.jpg'
+import brajesh from './sn2.jpeg'
+
 const Card = (props) => {
     return (
         <div className="flex flex-col bg-fourthColor h-auto min-h-64 w-[175px] sm:w-[180px] lg:w-[200px] border-4 border-firstColor rounded-xl shadow-sm py-3-2">
@@ -40,6 +43,8 @@ function KeyNoteSpeakers() {
                 <Card imageUrl={ashish} link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
                  <Card imageUrl={srgandhi} link='#' name='Prof. S R Gandhi' college='IIT Gandhinagar' designation='Professor'/> 
                  <Card imageUrl={basudev} link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
+                 <Card imageUrl={sunil} link='#' name='Dr. Sunil Kumar' college='CSIR-NEERI' designation='Sr. Principal Scientist'/>
+                 <Card imageUrl={brajesh} link='#' name='Prof. Brajesh Kumar Dubey' college='IIT Kharagpur' designation='Professor'/>
             </div>
             </center>
             
