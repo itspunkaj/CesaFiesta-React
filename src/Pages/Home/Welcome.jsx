@@ -27,7 +27,7 @@ function Welcome() {
             </div>   
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1py4MHOPs-sWEVXwIcMdG8SFMaXVZQGYM/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1vmBdrUgmnfZb8Le8GpqGb2buKcPd8SiY/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>
             </div>    
            </div>   
         </div>
