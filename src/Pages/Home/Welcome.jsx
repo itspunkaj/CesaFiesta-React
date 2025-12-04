@@ -23,11 +23,11 @@ function Welcome() {
             </div>
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1gBkvrR9Jwt5fKy0wrFdJVRpsEcveEsgq/view?usp=drive_link' target='blank_'>Detailed Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1SG6Zi4coEKsGAsJPzMbq4pSRktq4GiPz/view?usp=drive_link' target='blank_'>Detailed Brochure</a>
             </div>   
             <div className="flex flex-row items-center hover:thirdColor ">
               <FontAwesomeIcon icon={faBullhorn} className="h-[20px] w-[20px] text-firstColor"/>
-              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/1vmBdrUgmnfZb8Le8GpqGb2buKcPd8SiY/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>
+              <a className="ml-2 text-firstColor font-medium hover:text-thirdColor" href='https://drive.google.com/file/d/18t5cJOGQr7jzaMZOv6ct1-gQZvwuLP_Q/view?usp=drive_link' target='blank_'>Sponsorship Brochure</a>
             </div>    
            </div>   
         </div>
