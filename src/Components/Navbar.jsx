@@ -37,7 +37,9 @@ const tabs = [
     { id : 'transportation', label : 'Transportation', to : '/themes/transportation'},
     { id : 'geomatics', label : 'Geomatics', to : '/themes/geomatics'},
     { id : 'environment', label : 'Environment', to : '/themes/environment'},
-    { id : 'water-resources', label : 'Water Resources', to :'/themes/water-resources'}
+    { id : 'water-resources', label : 'Water Resources', to :'/themes/water-resources'},
+    { id : 'ceva', label : 'Ceva', to : '/themes/ceva' },
+
   ]
  },
  {
@@ -65,6 +67,7 @@ const tabs = [
   to : '/contact-us'
  }
 ];
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);      // for smaller screens hamburger navbar menu
   const [hoveredTab, setHoveredTab] = useState(null);
