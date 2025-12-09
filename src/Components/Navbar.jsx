@@ -38,7 +38,7 @@ const tabs = [
     { id : 'geomatics', label : 'Geomatics', to : '/themes/geomatics'},
     { id : 'environment', label : 'Environment', to : '/themes/environment'},
     { id : 'water-resources', label : 'Water Resources', to :'/themes/water-resources'},
-    { id: 'ceva', label: 'Ceva', to: 'https://cevaiitropar.com', target: '_blank' },
+    { id: 'ceva', label: 'CEVA', to: 'https://cevaiitropar.com', target: '_blank' },
   ]
  },
  {
