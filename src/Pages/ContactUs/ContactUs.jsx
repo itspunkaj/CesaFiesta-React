@@ -71,7 +71,7 @@ function ContactUs() {
           <Card2 imageUrl={Abhi} name="Abhishek Sonkar" designation="Advisor"
           email="abhishek.22cez0004@iitrpr.ac.in"/>
           <Card2 imageUrl={Vishal} name="Vishal bashist" designation="Arrangement and Hospitality" 
-          email="amit.20cez0003@iitrpr.ac.in"/>
+          email="vishal.23cez0005@iitrpr.ac.in"/>
           <Card2 imageUrl={Neha} name="Neha G Paswan " designation="Content" 
           email="Neha.23cez0014@iitrpr.ac.in"/>
           <Card2 imageUrl={Avinash} name="Avinash kumar sharma " designation="Sponsorship"
