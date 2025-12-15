@@ -46,7 +46,7 @@ function KeyNoteSpeakers() {
                  <Card imageUrl={basudev} link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
                  <Card imageUrl={sunil} link='#' name='Dr. Sunil Kumar' college='CSIR-NEERI' designation='Sr. Principal Scientist'/>
                  <Card imageUrl={brajesh} link='#' name='Prof. Brajesh Kumar Dubey' college='IIT Kharagpur' designation='Professor'/>
-                 <Card imageUrl={svv} link='#' name='SK Krishna' college='Border Roads Organization(BRO)' designation='Joint Director'/>
+                 <Card imageUrl={svv} link='#' name='SV Krishna' college='Border Roads Organization(BRO)' designation='Joint Director'/>
             </div>
             </center>
             
