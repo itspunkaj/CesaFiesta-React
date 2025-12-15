@@ -42,6 +42,7 @@ function Header() {
             21st-22nd February, 2026
           </h4>
           <h4 className="text-xl">Ropar, India</h4>
+          <h4 className="text-xl text-black">Co-organized by CEVA</h4>
         </div>
         <div className="flex justify-center items-center">
           <img className="hidden md:flex h-24" src={IITRoparLogo} />
