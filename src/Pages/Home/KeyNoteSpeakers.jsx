@@ -22,6 +22,10 @@ import srgandhi from './1n.png'
 import sunil from './sn1.jpg'
 import brajesh from './sn2.jpeg'
 import svv from './15.png'
+import Ramancharla from './Rama.jpeg'
+import Nameeta from './Nameeta.jpg'
+import Manish from './Manish.jpeg'
+import Mahendra from './Mahendra.jpg'
 
 const Card = (props) => {
     return (
@@ -41,6 +45,7 @@ function KeyNoteSpeakers() {
         <div className="py-4 ">
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
+                <Card imageUrl={Ramancharla} link='#' name='Prof. Ramancharla Pradeep Kumar' college='Director(CBRI)' designation='Chief Guest' />
                 <Card imageUrl={ashish} link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
                  <Card imageUrl={srgandhi} link='#' name='Prof. S R Gandhi' college='IIT Gandhinagar' designation='Professor'/> 
                  <Card imageUrl={basudev} link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
