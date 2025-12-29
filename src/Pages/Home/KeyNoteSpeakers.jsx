@@ -49,6 +49,9 @@ function KeyNoteSpeakers() {
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
                 <Card imageUrl={Ramancharla} link='#' name='Prof. Ramancharla Pradeep Kumar' college='Director(CBRI)' designation='Chief Guest' />
+                <Card imageUrl={Nameeta} link='#' name='Ms. Nameeta Prasad' college='Joint Secretary(MoEFCC)' designation='Guest of Honour' />
+                <Card imageUrl={Mahendra} link='#' name='Dr. Mahendra Singh Lodhi' college='Scientist-E & In-Charge, North East Regional Centre' designation='Distinguished Guest' />
+                <Card imageUrl={Ramancharla} link='#' name='Mr. Manish Bharadwaj, IAS' college='Secretary(NDMA)' designation='Special Guest' />
                 <Card imageUrl={ashish} link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
                  <Card imageUrl={srgandhi} link='#' name='Prof. S R Gandhi' college='IIT Gandhinagar' designation='Professor'/> 
                  <Card imageUrl={basudev} link='#' name='Prof. Basudev Biswal' college='IIT Bombay' designation='Professor'/>
