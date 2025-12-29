@@ -35,7 +35,8 @@ const Card = (props) => {
             </div>    
                 <div className="mt-5 flex flex-col text-[12px] text-blue-900 hover:text-blue-600" >
                     <span className="font-bold">{props.name}</span>
-                    <span>{props.designation}, {props.college}</span>
+                    <span>{props.designation}</span>
+                    <span>{props.college}</span>
                 </div>
         </div>
     )
