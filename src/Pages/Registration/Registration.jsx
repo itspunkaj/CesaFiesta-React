@@ -91,8 +91,8 @@ function Registration() {
             <div className="my-10 text-lg leading-relaxed">
               <ul className="list-disc pl-5">
               <li><a className="text-firstColor font-medium hover:text-thirdColor py-2" href='#' target='blank_'>Click here </a> to register</li>
-                <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mPXSCvjDbYVOnD0bi9o0bgFD0vZW4xr3/edit#slide=id.p1' target='blank_'>Presentation Tempelate</a></li>
-                <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mQgTIQtOpmEj2hbELKVoTWTv33eUm8jW/edit#slide=id.p1' target='blank_'>Poster Tempelate</a></li>
+                <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mPXSCvjDbYVOnD0bi9o0bgFD0vZW4xr3/edit#slide=id.p1' target='blank_'>Presentation template</a></li>
+                <li><a className="text-firstColor font-medium hover:text-thirdColor py-3" href='https://docs.google.com/presentation/d/1mQgTIQtOpmEj2hbELKVoTWTv33eUm8jW/edit#slide=id.p1' target='blank_'>Poster template</a></li>
               </ul>
             </div>
           </div>
