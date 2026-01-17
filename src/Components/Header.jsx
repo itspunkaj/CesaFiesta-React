@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
-  const [bgColor,setBgColor]=useState('bg-transparent');
+  const [,setBgColor]=useState('bg-transparent');
   useEffect(() => {
       const handleScroll = () => {
           const currentScrollPos = window.scrollY;
