@@ -15,7 +15,7 @@ function ImportantDates() {
             <tbody>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Abstract Submission</td>
-                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Last Date 28th January 2026</td>
+                <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Last Date 25th January 2026</td>
               </tr>
               <tr className="hover:transform hover:scale-[1.02] hover:bg-[#f8f9fa] transition-transform duration-200 ease-in-out">
                 <td className="md:text-[18px] border-2 border-slate-300 py-4 px-3">Notification of Acceptance</td>
