@@ -1,29 +1,29 @@
 /* eslint-disable react/prop-types */
-import DrVVSrinivas from './VVSrinivas.jpg'
-import ahsan from './ahsan.png'
-import upaka from './upaka.png'
-import ahsan2 from './Praveen.jpg'
-import salim from  './4.png'
-import sujata from './5.png'
-import aparna from './6.png'
-import anurag from './7.png'
-import gandhi from './8.png'
-import unmesh from './9.png'
-import rupesh from './101.png'
-import siddhartha from './11.png'
-import rahul from './12.jpeg'
-import bhava from './13.png'
-import dola from './14.png'
-import brig from './chunendra.jpeg'
-import kaizad from './kaizad.jpeg'
+// import DrVVSrinivas from './VVSrinivas.jpg'
+// import ahsan from './ahsan.png'
+// import upaka from './upaka.png'
+// import ahsan2 from './Praveen.jpg'
+// import salim from  './4.png'
+// import sujata from './5.png'
+// import aparna from './6.png'
+// import anurag from './7.png'
+// import gandhi from './8.png'
+// import unmesh from './9.png'
+// import rupesh from './101.png'
+// import siddhartha from './11.png'
+// import rahul from './12.jpeg'
+// import bhava from './13.png'
+// import dola from './14.png'
+// import brig from './chunendra.jpeg'
+// import kaizad from './kaizad.jpeg'
 import ashish from './3n.png'
 import basudev from './2n.png'
 import srgandhi from './1n.png'
 import sunil from './sn1.jpg'
 import brajesh from './sn2.jpeg'
 import svv from './15.png'
-import Ramancharla from './Rama.jpeg'
-import Nameeta from './Nameeta.jpg'
+// import Ramancharla from './Rama.jpeg'
+// import Nameeta from './Nameeta.jpg'
 import Manish from './Manish.jpeg'
 import Mahendra from './Mahendra.jpg'
 import Chalumuri from './11n.jpg'
@@ -50,8 +50,8 @@ function KeyNoteSpeakers() {
         <div className="py-4 ">
             <h3 className="text-center text-3xl  font-bold">Keynote Speakers</h3>
             <center><div className="w-[90%] max-w-[1100px] lg:w-[80%] grid justify-items-center grid-cols-2 md:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:px-0 gap-6 py-8 ">
-                <Card imageUrl={Chalumuri} link='#' name='Dr. Chalumuri Ravi Sekhar' college='Director (CSIR-CRRI)' designation='Chief Guest' />
-                <Card imageUrl={Charu} link='#' name='Dr. Charu Lata' college='Principal Scientist (CSIR-NIScPR)' designation='Guest of Honour' />
+                <Card imageUrl={Chalumuri} link='#' name='Dr. Chalumuri Ravi Sekhar' college='Director(CSIR-CRRI)' designation='Chief Guest' />
+                <Card imageUrl={Charu} link='#' name='Dr. Charu Lata' college='Principal Scientist(CSIR-NIScPR)' designation='Guest of Honour' />
                 <Card imageUrl={Mahendra} link='#' name='Dr. Mahendra Singh Lodhi' college='Scientist-E & In-Charge, North East Regional Centre' designation='Distinguished Guest' />
                 <Card imageUrl={Manish} link='#' name='Mr. Manish Bharadwaj, IAS' college='Secretary(NDMA)' designation='Special Guest' />
                 <Card imageUrl={ashish} link='#' name='Prof. Ashish Verma' college='IISc Bangalore' designation='Professor' />
